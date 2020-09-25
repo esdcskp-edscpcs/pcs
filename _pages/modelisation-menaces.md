@@ -1,7 +1,7 @@
 ---
-title: Threat Modeling
+title: Modélisation des menaces
 layout: default
-permalink: /threat-modeling/
+permalink: /modelisation-menaces/
 ---
 
 <ul class="list-unstyled">

@@ -1,7 +1,7 @@
 ---
-title: Events
+title: Événements
 layout: no-banner
-permalink: /events/
+permalink: /evenements/
 ---
 
 {% if site.data.events.next %}

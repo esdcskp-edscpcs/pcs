@@ -1,7 +1,7 @@
 ---
-title: Security Champions
+title: Champions de la sécurité
 layout: no-banner
-permalink: /security-champions/
+permalink: /champions-securite/
 ---
 
 <ul class="list-unstyled">

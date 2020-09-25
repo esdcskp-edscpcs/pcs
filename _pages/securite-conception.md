@@ -1,7 +1,7 @@
 ---
-title: Security by Design
+title: Sécurité dès la conception
 layout: default
-permalink: /security-by-design/
+permalink: /securite-conception/
 ---
 
 <ul class="list-unstyled">

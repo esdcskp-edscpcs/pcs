@@ -1,7 +1,7 @@
 ---
-title: Application Security Training
+title: Formations sur la sécurité des applications
 layout: no-banner
-permalink: /app-security-training/
+permalink: /formation-securite-app/
 ---
 
 <ul class="list-unstyled">

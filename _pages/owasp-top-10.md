@@ -1,5 +1,5 @@
 ---
-title: OWASP Top 10 (2017) Web Application Security Risks
+title: Risques pour la sécurité des applications web OWASP Top 10 (2017)
 layout: default
 permalink: /owasp-top-10/
 ---

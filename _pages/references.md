@@ -1,5 +1,5 @@
 ---
-title: References
+title: Références
 layout: default
 permalink: /references/
 ---

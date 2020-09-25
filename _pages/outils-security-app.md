@@ -1,7 +1,7 @@
 ---
-title: Application Security Tools
+title: Outils pour la sécurité des applications
 layout: default
-permalink: /app-security-tools/
+permalink: /outils-securite-app/
 ---
 
 ## ESDC Standard Security Tools
