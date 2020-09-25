@@ -115,7 +115,7 @@ En tant que champion de la sécurité, vous serez invité à partager des inform
 
 ## Apprendre à connaître nos partenaires
 ### Opérations
-**Les exigences opérationnelles **:
+**Les exigences opérationnelles**:
 * Déterminer les besoins et la tolérance aux risques. 
 * Remplir le document sur les besoins opérationnels, ainsi que le questionnaire d’évaluation sur la sécurité. 
 * Confirmer l’énoncé de sensibilité, ainsi que l’énoncé de risques acceptables.
