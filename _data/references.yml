@@ -1,23 +1,23 @@
 resources:
-  - topic: "Helpful Resources"
+  - topic: "Ressources utiles"
     topicitems:
-      - title: "Security by Design"
-        url: "../security-by-design/"
-      - title: "Threat Modeling"
-        url: "../threat-modeling/"
+      - title: "Sécurité dès la conception"
+        url: "../securite-conception/"
+      - title: "Modélisation des menaces"
+        url: "../modelisation-menaces/"
 #      - title: "Security Controls"
 #        url: "../security-controls/"
       - title: "OWASP Top 10 (2017)"
         url: "../owasp-top-10/"
-      - title: "OWASP Cheat Sheet Series Project"
+      - title: "OWASP Cheat Sheet Series Project (en anglais)"
         url: https://cheatsheetseries.owasp.org/
-      - title: "Microsoft Security Engineering: Secure DevOps Best Practices"
+      - title: "Microsoft Security Engineering: Secure DevOps Best Practices (en anglais)"
         url: https://www.microsoft.com/en-us/securityengineering/devsecops
-      - title: "DevSecOps: Injecting Security into CD Pipelines"
+      - title: "DevSecOps: Injecting Security into CD Pipelines (en anglais)"
         url: https://www.atlassian.com/continuous-delivery/principles/devsecops
-      - title: "Continuous delivery pipeline 101"
+      - title: "Continuous delivery pipeline 101 (en anglais)"
         url: https://www.atlassian.com/continuous-delivery/pipeline
-      - title: "Azure DevOps Pipelines: Leveraging OWASP ZAP in the Release Pipeline"
+      - title: "Azure DevOps Pipelines: Leveraging OWASP ZAP in the Release Pipeline (en anglais)"
         url: https://devblogs.microsoft.com/premier-developer/azure-devops-pipelines-leveraging-owasp-zap-in-the-release-pipeline/
-      - title: "What do SAST, DAST, IAST and RASP Mean to Developers?"
+      - title: "What do SAST, DAST, IAST and RASP Mean to Developers? (en anglais)"
         url: https://www.softwaresecured.com/what-do-sast-dast-iast-and-rasp-mean-to-developers/
