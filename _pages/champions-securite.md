@@ -99,7 +99,7 @@ Une formation supplémentaire en matière de sécurité est fortement recommand�
 ## Collaboration
 En tant que champion de la sécurité, vous serez invité à partager des informations sur la sécurité et à collaborer également sur les différentes plateformes du **réseau des champions de la sécurité **:
 
-- [GCConnex(https://gcconnex.gc.ca/groups/profile/59572173/esdc-security-champions-network-reseau-des-champions-de-la-securite-dedsc?language=fr)
+- [GCConnex](https://gcconnex.gc.ca/groups/profile/59572173/esdc-security-champions-network-reseau-des-champions-de-la-securite-dedsc?language=fr)
 - [Le Réseau des Champions de la Sécurité sur MS Teams](https://teams.microsoft.com/l/team/19%3aaa7f40a6029a44cdbf864f7dc8bc5a62%40thread.tacv2/conversations?groupId=bea80905-7f0f-432d-9a83-60561c1efcd2&tenantId=9ed55846-8a81-4246-acd8-b1a01abfc0d1)
 - Utiliser et promouvoir la Base de connaissances en matière de sécurité (à venir).
 
