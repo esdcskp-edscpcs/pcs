@@ -53,151 +53,144 @@ permalink: /champions-securite/
   </li>
 </ul>
   
-# Security Champions Overview
+# Aperçu des champions de la sécurité
 
-## Background
-IT Security is implementing Security by Design which is an is an approach to software and hardware development that seeks to make systems as free of vulnerabilities and impervious to attack as possible.  It is the process that integrates security in the system development lifecycle process (SDLC).  Given today’s dynamic threat environment IT Security can no longer be an afterthought. IITB is therefore integrating Security by Design within ESDC’s SDLC process. This means: 
-*  Project applications to build security in risk-based design; have system-specific security controls and produce security assurance evidence.
-*  IT Security to collaborate with the Solution Team to ensure Security Requirements are applied to the Business Solution; assess security assurance evidence and authorize application operation. 
+## Contexte 
+La Sécurité des technologies de l’information met en œuvre la sécurité assurée dès la conception, qui est une approche du développement de logiciels et de matériel qui vise à rendre les systèmes, dans la mesure du possible, exempts de vulnérabilités et imperméables aux attaques. C’est le processus qui intègre la sécurité dans le processus du Cycle chronologique de l’élaboration des systèmes (CCES). Compte tenu du contexte dynamique actuel où sévit la menace, la sécurité des TI ne peut plus être une réflexion après coup. La DGIIT intègre, par conséquent, la sécurité par conception au processus du CCES d’EDSC. Cela signifie : 
 
-## The Security Champion Objectives
-*  To be the Point of Contact representing IT Security in their Solution Team/ Application Development team;
-*  To grow into the Security subject-matter expert in the development / solution or project team;
-*  To become a security influencer and promote the department’s security agenda;
-*  To remind developers that application security is their responsibility. 
+* Avoir des applications de projet pour renforcer la sécurité dans la conception axée sur les risques, permettre des contrôles de sécurité propres au système et produire des preuves d’assurance de la sécurité.
+* La Sécurité des TI collaborera avec l’équipe des solutions afin de veiller à ce que les exigences en matière de sécurité soient appliquées à la solution opérationnelle ; évaluer les preuves d’assurance de la sécurité, et également autoriser l’opération de l’application. 
 
-## Roles and Responsibilities as a Security Champion
-### Roles and Responsibilities
+## Les objectifs d’un champion de la sécurité
 
-- Implementing and managing security tools;
-- Validating and assigning vulnerabilities for mitigation;
-- Ensuring all documentation is created for security; 
-- Performing threat modeling on the architecture and the new functionality.
-- Responsible to ensure Security Requirements and Controls are implemented in solutions
-- Notify IT Security of any potential risk driven by any kind of additions/changes made to a solution (Architecture, components, third party solutions, etc.)
-- Knowledge sharing with the team
-- Keep up-to-date with Security Training / Awareness / Guidance / Mentoring
-- Promote best practices
-- Participate actively in a network of Security Champions. 
+* Être le point de contact représentant la sécurité des TI au sein de leur équipe des solutions/équipe de développement des applications.
+* Devenir un expert en matière de sécurité au sein de l’équipe de développement/de solution, ou de projet. 
+* Devenir un influenceur de la sécurité et promouvoir le programme de sécurité du Ministère. 
+* Rappeler aux développeurs que la sécurité des applications est leur responsabilité.
 
-### Implementing and managing security tools
+## Vos rôles et responsabilité en tant que champion de la sécurité
+### Rôles et Responsabilités
 
-You will have the responsibility to demonstrate to developers how to integrate and configure various application security tools into their CI/CD pipeline and support them if required.
+* Mettre en œuvre et gérer des outils de sécurité.
+* Valider et attribuer les vulnérabilités à des fins d'atténuation.
+* Veiller à ce que toute la documentation soit créée pour des raisons de sécurité.
+* Effectuer une modélisation des menaces portant sur l'architecture et la nouvelle fonctionnalité.
+* Veiller à ce que les exigences et les contrôles de sécurité soient mis en œuvre dans les solutions.
+* Aviser la sécurité des technologies de l’information de tout risque potentiel lié à toute forme d'ajout/modification apporté à une solution (architecture, composants, solutions de tiers, etc.).
+* Partager les connaissances avec l'équipe.
+* Se tenir au courant de la formation, de la sensibilisation, de l'orientation et du mentorat en matière de sécurité.
+* Promouvoir les meilleures pratiques.
+* Participer activement à un réseau de champions de la sécurité
 
-- [Application Security Tools & Guides]({{ '/' | absolute_url }}app-security-tools/)
+## Mise en œuvre et gestion des outils de sécurité
 
-### Training
+## Formation
+Une formation personnalisée sera proposée aux champions de la sécurité et sera dispensée à une date à déterminer. Cette formation portera sur les sujets suivants:
+* la sécurité par la conception ;
+* les contrôles de sécurité ITSG-33 ;
+* la procédure guidée des contrôles d'accès basé sur les rôles ;
+* la procédure guidée portant sur l’évaluation et l’autorisation de la sécurité ; 
+* la modélisation des menaces.
 
-Customized training will be offered to the Security Champions and will be provided at a date to be determined. The training will touch on the following topics:
+Une formation supplémentaire en matière de sécurité est fortement recommandée. Vous trouverez ci-dessous une liste des cours recommandés. Des séances de groupe peuvent être organisées à des dates précises.
 
-- Security by design
-- ITSG-33 Security Controls;
-- Role Based Access Controls (RBAC) walkthrough;
-- Security Assessment & Authorization (SA&A) walkthrough;
-- Threat Modeling.
+* [Formation en matière de sécurité]({{ '/' | absolute_url }}formation-securite-app/) 
 
-Additional security training is strongly recommended. You can find a list of recommended courses below. Group sessions may be held at specific dates.
+## Collaboration
+En tant que champion de la sécurité, vous serez invité à partager des informations sur la sécurité et à collaborer également sur les différentes plateformes du **réseau des champions de la sécurité **:
 
-- [Security Training]({{ '/' | absolute_url }}app-security-training/)
+- [GCConnex(https://gcconnex.gc.ca/groups/profile/59572173/esdc-security-champions-network-reseau-des-champions-de-la-securite-dedsc?language=fr)
+- [Le Réseau des Champions de la Sécurité sur MS Teams](https://teams.microsoft.com/l/team/19%3aaa7f40a6029a44cdbf864f7dc8bc5a62%40thread.tacv2/conversations?groupId=bea80905-7f0f-432d-9a83-60561c1efcd2&tenantId=9ed55846-8a81-4246-acd8-b1a01abfc0d1)
+- Utiliser et promouvoir la Base de connaissances en matière de sécurité (à venir).
 
-### Collaboration
+## Gestion des outils de sécurité
 
-As a Security Champion, you will be invited to share security information and collaborate on the various platforms of the **Security Champions Network**:
+- Stratégie de mise en œuvre des outils de sécurité. 
 
+## L’objectif final
+**La Sécurité assurée dès la conception est un partenariat entre les opérations, l’équipe des solutions de la DGIIT et la Sécurité des TI**. L’objectif partagé se trouve dans une solution informatique sécurisée et gérée de manière sécurisée. Pour ce faire, des champions de la sécurité seront désignés : 
 
-- [GCConnex](https://gcconnex.gc.ca/groups/profile/59572173/esdc-security-champions-network-reseau-des-champions-de-la-securite-dedsc?language=en)
-- [Security Champions Network on MS Teams](https://teams.microsoft.com/l/team/19%3aaa7f40a6029a44cdbf864f7dc8bc5a62%40thread.tacv2/conversations?groupId=bea80905-7f0f-432d-9a83-60561c1efcd2&tenantId=9ed55846-8a81-4246-acd8-b1a01abfc0d1)
-- Use and promote the Security Knowledge Base (upcoming)
+* Les champions de la sécurité deviendront des influenceurs de la sécurité et feront la promotion du programme de sécurité du Ministère.
+* Les champions de la sécurité travailleront avec leurs équipes et collaboreront avec des experts en matière de sécurité des TI afin de veiller à ce que la sécurité fasse partie intégrante et continue du cycle de développement. La mise en œuvre de cette mesure permettra à la DGIIT de se conformer à la Directive sur la gestion de la sécurité du Conseil du Trésor, à la Politique sur la sécurité du gouvernement, et également à s’harmoniser avec la gestion des risques liés à la sécurité des TI : une approche fondée sur le cycle de vie (ITSG-33).
 
-## Security Tools Management
+## Apprendre à connaître nos partenaires
+### Opérations
+**Les exigences opérationnelles **:
+* Déterminer les besoins et la tolérance aux risques. 
+* Remplir le document sur les besoins opérationnels, ainsi que le questionnaire d’évaluation sur la sécurité. 
+* Confirmer l’énoncé de sensibilité, ainsi que l’énoncé de risques acceptables.
+* Diriger les activités d’évaluation des facteurs relatifs à la vie privée.
+* Examiner le rapport d’évaluation de la sécurité et prépare le plan d’atténuation des risques. 
+* Déclaration d’autorisation signée conjointement par le SMA du secteur d’activités et le DPI de la DGIIT.
 
-- Security Tools implementation strategy
+### Les équipes de sécurité des TI
+**L’équipe des solutions** collabore avec la sécurité des TI en vue de répondre à toutes les exigences de sécurité du Ministère et du GC, **notamment**:
 
-## The End Goal
-**Security by Design is a partnership between Business, IITB Solution Team and IT Security.**
-The shared objective is a securely delivered and a securely operated IT solution.  This will be done by having Security Champions: 
-* become Security influencers to promote the Department’s Security agenda;
-* work with their teams and collaborate with IT Security subject matter experts to ensure that security is an integral and continuous part of the development lifecycle. 
-Doing so will allow IITB to conform to the Treasury Board Directive on Security Management, the Policy on Government Security and align with the IT Security Risk Management – A Lifecycle Approach (ITSG-33).
+* Intégrer les exigences de base en matière de sécurité dans le design conceptuel dès le début du projet. 
+* Élaborer le design conceptuel de la sécurité pour y inclure l’architecture de sécurité, les contrôles de sécurité, ainsi que les mécanismes de sécurité. 
+* Examiner les mises à l’essai et l’évaluation de sécurité, ainsi que les rapports préliminaires d’évaluation de la sécurité.
+* Mettre à jour la matrice de traçabilité des exigences de sécurité.
+* Terminer le plan d’atténuation des risques résiduels.
+* L’équipe des solutions travaille également en partenariat avec les opérations dans le but de fournir des commentaires sur les documents opérationnels exigés, tels que le questionnaire sur la sécurité et les rapports d’essai et d’évaluation.
 
-## Getting to know our Partners
-### Business
-**Business Requirements**
-* Identifies needs and risk tolerance
-* Completes Business Needs Document and Security Assessment Questionnaire
-* Confirms Statement of Sensitivity and Statement of Acceptable Risk
-* Leads Privacy Impact Assessment activities 
-* Reviews Security Assessment Report and completes the Risk Mitigation Plan
-* Jointly signed Statement of Authorization by the Business Line ADM and IITB CIO. 
+**L’équipe d’évaluation et d’autorisation de la sécurité** est responsable de :
+* Définir la sensibilité et les risques acceptables. 
+* Tirer parti de l’évaluation de la menace au niveau des opérations, de la sensibilité des biens d’information, ainsi que des évaluations des répercussions sur les activités de la Direction générale des services d’intégrité. 
+* Élaborer l’énoncé de sensibilité et l’énoncé de risques acceptables, le rapport d’évaluation de la sécurité, le plan d’atténuation des risques résiduels, ainsi que l’énoncé d’autorisation. 
+* Évaluer le design conceptuel de la sécurité.
+* Effectuer des mises è l’essai et des évaluations de sécurité.
 
-### The IT Security Teams 
-**The Solution Team** works with IT Security to implement all departmental and GoC Security. **Requirements include**:
-* Incorporating Baseline Security Requirements into the Conceptual Design **at the start of the project**
-* Develop Conceptual Security Design to include Security Architecture, Security Controls and Security Mechanisms
-* Review Security Testing and Evaluation and Preliminary Security Assessment Reports
-* Updates the Security Requirements Traceability Matrix
-* Completes the Residual Risk Mitigation Plan.
-* The Solution team also works in partnership with the Business to provide input on Business required documents such as the Security Questionnaire and Testing and Evaluation reports.
+**L’équipe d’ingénierie** est responsable de:
 
-**The SA&A Team** is responsible to:
-* Defines Sensitivity and Acceptable Risk
-* Leverages Enterprise Level Threat Assessment, Information Asset Sensitivity and Business Impact Assessments from Integrity Services Branch. 
-* Develops the Statement of Sensitivity and Statement of Acceptable Risk, Security Assessment Report, Residual Risk Mitigation Plan and Statement of Authorization.
-* Assess the Conceptual Security Design
-* Security Testing and Evaluation.
+* évaluer le design conceptuel de la sécurité ;
+* adapter les contrôles de sécurité ;
+* évaluer l’architecture de sécurité ;
+* évaluer les contrôles de sécurité.
 
-**The Engineering Team** is responsible to:
-* Assesses the Conceptual Security Design
-* Tailor Security Controls 
-* Assess Security Architecture
-* Assess Security Controls 
+## Approche d’évaluation de la sécurité
+**Approche pour les NOUVELLES solutions - Version/distribution nouvelle ou majeure**
 
-## Security Assessment Approach
-**Approach for NEW Solutions - Applies to New or Major Release/Version:**
-* Solution Development Team engages IT Security Team at START of project
-* Project to produce full set of requisite evidence documents
-* Excellent ability for IT Security to influence security (requirements/controls)
-* Excellent opportunity for security design review, escalation of deficiencies during the build phase. 
+* L’équipe de développement des solutions fait participer l’équipe de sécurité des TI dès le DÉBUT du projet.
+* Projet visant à produire l’ensemble complet des documents de preuve requis.
+* Excellente capacité de la sécurité des TI à influencer la sécurité (exigences/contrôles).
+* Excellente occasion d’examiner la conception de la sécurité et de signaler les lacunes pendant la phase de construction.
 
-**Approach for EXISTING Solutions:**
-* Current focus is on mission critical applications, Citizen centric apps, high privacy/security concerns
-* Existing applications will be assessed for compliance, then triaged for risk mitigation action
-* Utilize Application Portfolio Management (APM) and Corporate Solution Directory (CSD) to identify applications
-* Utilize Business Impact Assessments (BIA) for criticality and availability
-* Identify Security Assurance Level, Categorize and Prioritize 
-* Conduct Compliance Assessment against required safeguards/controls
-* High Residual Risk solutions to be triaged for attention and action.
+**Approche pour les solutions EXISTANTES**
 
-# Become a Security Champion
+* L'accent est mis actuellement sur les applications essentielles, les applications axées sur les citoyens, ainsi qu’aux préoccupations élevées en matière de confidentialité et de sécurité.
+* Les applications existantes seront évaluées en fonction de leur conformité, et ensuite triées pour les mesures d’atténuation des risques. 
+* Utiliser la Gestion des portefeuilles d’applications (GPA) et le Répertoire des solutions organisationnelles afin d’identifier les applications.
+* Utiliser les évaluations des répercussions sur les activités afin de déterminer l’importance ainsi que la disponibilité. 
+* Déterminer le niveau d’assurance de la sécurité, la catégorie, ainsi que l’ordre de priorité.
+* Effectuer une évaluation de la conformité par rapport aux mesures de protection et de contrôle exigées.
+* Les solutions à risque résiduel élevé doivent faire l'objet d'un triage à titre d’information et d’action.
 
-## Reasons to become a Security Champion
+# Devenir un Champion de la sécurité
 
-Do you care about Security in your Solution / Team?
+## Pourquoi devenir un champion de la sécurité
 
-Are you open to promoting Application Security in your solution / Team?
+Vous préoccupez-vous de la sécurité au sein de votre solution/équipe ?
 
-Do you have good Application Security Knowledge and/or the motivation to learn the required knowledge?
+Êtes-vous prêt à promouvoir la sécurité des applications auprès de votre solution/équipe ?
 
-Do you want to become a participating member of the Security Network Champion?
+Avez-vous une bonne connaissance de la sécurité des applications et/ou la motivation pour apprendre les connaissances requises ?
 
-**If you answered yes to one of the above,** then you are a good candidate to be a Security Champion. 
+Voulez-vous devenir un membre participant du Réseau des champions de la sécurité ?
 
-## Details
+**Si vous avez répondu oui à l’une des questions ci-dessus, vous êtes un bon candidat pour être un champion de la sécurité.**
 
-The role of a Security Champion is to be a Point of Contact representing IT Security in your Solution Team/ Application Development Team. 
+## Détails :
 
-Security training and access to Security Subject Matter Experts and Knowledge Base will help you grow into the security subject-matter expert in your team. This will aid you to become the security influencer in your team where you will be active in reminding your team members that security is their responsibility. You will also be playing a key role in promoting the department's security agenda. 
+Le rôle d’un champion de la sécurité est d’être une personne-ressource qui représente la sécurité de la technologie de l’information (TI) au sein de son équipe de la solution/équipe de développement des applications. La formation à la sécurité, l’accès aux experts en matière de sécurité et la base de connaissances vous aideront à devenir l’expert en matière de sécurité au sein de votre équipe. Cela vous aidera à devenir un influenceur de la sécurité au sein de votre équipe où vous serez actif en rappelant à vos membres d’équipes que la sécurité est leur responsabilité. Vous jouerez également un rôle clé dans la promotion du programme de sécurité du Ministère. De plus, vous deviendrez un membre participant du Réseau des champions de la sécurité et vous aurez l’occasion d’échanger des renseignements ainsi que d’apprendre des autres champions de la sécurité.
 
-In addition, you will become a participating member of the Security Champion Network and will have the opportunity to share information and learn from other Security Champions.
+## Comment puis-je devenir un Champion de la sécurité ?
 
-## How can I become a Security Champion
+Vous pouvez faire parvenir une demande directement via MS Teams dans la chaîne [Réseau des champions de la sécurité d'EDSC / ESDC Security Champions Network - Become a Security Champion](https://teams.microsoft.com/l/channel/19%3acc911cac1b4b4d1f9f66544125b384ac%40thread.tacv2/Become%2520a%2520Security%2520Champion?groupId=bea80905-7f0f-432d-9a83-60561c1efcd2&tenantId=9ed55846-8a81-4246-acd8-b1a01abfc0d1).
 
-You can send a request directly into the MS Teams [Security Champions Network - Become a Security Champion channel](https://teams.microsoft.com/l/channel/19%3acc911cac1b4b4d1f9f66544125b384ac%40thread.tacv2/Become%2520a%2520Security%2520Champion?groupId=bea80905-7f0f-432d-9a83-60561c1efcd2&tenantId=9ed55846-8a81-4246-acd8-b1a01abfc0d1).
-
-# Our Security Champions
+# Nos Champions de la Sécurité
 
 <ul class="list-unstyled">
-{% for product in site.data.security-champions.products %}
+{% for product in site.data.champions-securite.products %}
   <li>
   <details>
     <summary>
@@ -205,14 +198,14 @@ You can send a request directly into the MS Teams [Security Champions Network - 
     </summary>
     {% if product.nominatedby %}
       <p>
-		<span><strong>Nominated by:</strong></span> 
+		<span><strong>Nominé par:</strong></span> 
         {% for nominator in product.nominatedby %}
           <span class="label label-primary"><a href="mailto:{{ nominator.name }}">{{nominator.name}}</a></span>
         {% endfor %}
       </p>
     {% endif %}
     <p>
-		<span><strong>Nominees:</strong></span>
+		<span><strong>Nominés:</strong></span>
 	</p>
 	<ul class="list-group list-inline row mrgn-lft-0 mrgn-rght-0">
       {% for nominee in product.nominees %}
