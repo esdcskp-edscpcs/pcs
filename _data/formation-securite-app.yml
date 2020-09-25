@@ -1,70 +1,70 @@
 training:
-  - title: "Learning Tree: DevSecOps Foundation (DSOF)"
+  - title: "Learning Tree: DevSecOps Foundation (DSOF) (en anglais seulement)"
     details: |
       <img src="../assets/Learning-Tree.PNG">
       <ul>
-        <li><a href="https://www.learningtree.ca/courses/3687/devsecops-engineering-dsof/" target="_blank">Course Details and Schedule</a></li>
-        <li>Level: Intermediate</li>
-        <li>At our site</li>
-        <li>Price Not available</li>
+        <li><a href="https://www.learningtree.ca/courses/3687/devsecops-engineering-dsof/" target="_blank">Détails du cours et horaire</a></li>
+        <li>Niveau: Intermédiaire</li>
+        <li>Sur notre site</li>
+        <li>Prix non disponible</li>
       </ul>
-  - title: "Learning Tree: Full Stack Cybersecurity Training for Web Apps and Services"
+  - title: "Learning Tree: Full Stack Cybersecurity Training for Web Apps and Services (en anglais seulement)"
     details: |
       <img src="../assets/Learning-Tree.PNG">
       <ul>
-        <li><a href="https://www.learningtree.ca/courses/940/full-stack-cybersecurity-training-for-web-apps-and-services/" target="_blank">Course Details and Schedule</a></li>
-        <li>Level: Intermediate</li>
-        <li>4 days course</li>
-        <li>In Class/Live/Online/At our site</li>
-        <li>Laptop required</li>
+        <li><a href="https://www.learningtree.ca/courses/940/full-stack-cybersecurity-training-for-web-apps-and-services/" target="_blank">Détails du cours et horaire</a></li>
+        <li>Niveau: Intermédiaire</li>
+        <li>Formation de 4 jours</li>
+        <li>En classe/En direct/En ligne/Sur notre site</li>
+        <li>Portable requis</li>
         <li>$2890.00</li>
       </ul>
-  - title: "Canadian Centre for Cyber Security: 335 - Cyber Security in the GC for Software Development Teams"
+  - title: "Canadian Centre for Cyber Security: 335 - La cybersécurité dans le GC pour les équipes de développement de logiciels (cours généralement offert en anglais)"
     details: |
       <img src="../assets/Cyber-Centre-Learning-Hub.PNG">
       <ul>
-        <li><a href="https://lih-cai.cse-cst.gc.ca/enrol/index.php?id=80" target="_blank">Course Details and Schedule</a></li>
-        <li>Level: Beginner</li>
-        <li>1 day course</li>
-        <li>In Class/At our site</li>
-        <li>$500.00 (Group price available)</li>
+        <li><a href="https://lih-cai.cse-cst.gc.ca/enrol/index.php?id=80&lang=fr_ca" target="_blank">Détails du cours et horaire</a></li>
+        <li>Niveau: Débutant</li>
+        <li>Formation d'une journée</li>
+        <li>En classe/Sur notre site</li>
+        <li>$500.00 (Prix de groupe disponible)</li>
       </ul>
-  - title: "Canadian Centre for Cyber Security: 910- IT Security Risk Management Bootcamp"
+  - title: "Canadian Centre for Cyber Security: 910 - Formation concentrée sur la gestion des risques liés à la sécurité des TI (cours généralement offert en anglais)"
     details: |
       <img src="../assets/Cyber-Centre-Learning-Hub.PNG">
       <ul>
-        <li><a href="https://lih-cai.cse-cst.gc.ca/enrol/index.php?id=124" target="_blank">Course Details and Schedule</a></li>
-        <li>Level: Beginner</li>
-        <li>5 days course</li>
-        <li>In Class/At our site</li>
-        <li>$2000.00 (Group price available)</li>
+        <li><a href="https://lih-cai.cse-cst.gc.ca/enrol/index.php?id=124&lang=fr_ca" target="_blank">Détails du cours et horaire</a></li>
+        <li>Niveau: Débutant</li>
+        <li>Formation de 5 jours</li>
+        <li>En classe/Sur notre site</li>
+        <li>$2000.00 (Prix de groupe disponible)</li>
       </ul>      
-  - title: "Learning Tree: Certified Secure Software Lifecycle Professional (CSSLP) Training"
+  - title: "Learning Tree: Certified Secure Software Lifecycle Professional (CSSLP) Training (en anglais seulement)"
     details: |
       <img src="../assets/Learning-Tree.PNG">
       <ul>
-        <li><a href="https://www.learningtree.ca/courses/2059/csslp-certification-csslp-training/" target="_blank">Course Details and Schedule</a></li>
-        <li>Level: Advanced</li>
-        <li>5 days course</li>
-        <li>In Class/Live/Online/At our site</li>
-        <li>$4790.00 (Group price available)</li>
+        <li><a href="https://www.learningtree.ca/courses/2059/csslp-certification-csslp-training/" target="_blank">Détails du cours et horaire</a></li>
+        <li>Niveau: Avancé</li>
+        <li>Formation de 5 jours</li>
+        <li>En classe/En direct/En ligne/Sur notre site</li>
+        <li>$4790.00 (Prix de groupe disponible)</li>
       </ul>     
-  - title: "SANS: SEC540 - Cloud Security and DevOps Automation"
+  - title: "SANS: SEC540 - Cloud Security and DevOps Automation (en anglais seulement)"
     details: |
       <img src="../assets/SANS.PNG">
       <ul>
-        <li><a href="https://www.sans.org/course/secure-devops-cloud-application-security" target="_blank">Course Details and Schedule</a></li>
-        <li>Level: Intermediate</li>
-        <li>5 days course</li>
-        <li>Live/Online</li>
+        <li><a href="https://www.sans.org/course/secure-devops-cloud-application-security" target="_blank">Détails du cours et horaire</a></li>
+        <li>Niveau: Intermédiaire</li>
+        <li>Formation de 5 jours</li>
+        <li>En direct/En ligne</li>
         <li>$6600.00 USD</li>
       </ul> 
-  - title: "Ultimate IT Courses: Certified Secure Web Applications Engineer - Ultimate C)SWAE Self Study Package"
+  - title: "Ultimate IT Courses: Certified Secure Web Applications Engineer - Ultimate C)SWAE Self Study Package (en anglais seulement)"
     details: |
       <img src="../assets/Ultimate-IT-Courses.png">
       <ul>
-        <li><a href="https://ultimateitcourses.ca/course/technical/cybersecurity/ultimate-cswae-self-study-package/" target="_blank">Course Details and Schedule</a></li>
-        <li>Level: Intermediate</li>
-        <li>Self Study Package</li>
+        <li><a href="https://ultimateitcourses.ca/course/technical/cybersecurity/ultimate-cswae-self-study-package/" target="_blank">Détails du cours et horaire</a></li>
+        <li>Niveau: Intermédiaire</li>
+        <li>Formule d'auto-apprentissage</li>
         <li>$1200.00</li>
       </ul>        
