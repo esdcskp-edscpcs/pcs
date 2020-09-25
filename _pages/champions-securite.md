@@ -17,7 +17,7 @@ permalink: /champions-securite/
 		<li><a href="#les-objectifs-dun-champion-de-la-sécurité">Les objectifs d’un champion de la sécurité</a></li>
 		<li><a href="#vos-rôles-et-responsabilités-en-tant-que-champion-de-la-sécurité">Vos rôles et responsabilités en tant que champion de la sécurité</a><ul>
 		<li><a href="#rôles-et-responsabilités">Rôles et Responsabilités</a></li>
-		<li><a href="#mise-en-oeuvre-et-gestion-des-outils-de-sécurité">Mise en œuvre et gestion des outils de sécurité</a></li>
+		<li><a href="#mise-en-œuvre-et-gestion-des-outils-de-sécurité">Mise en œuvre et gestion des outils de sécurité</a></li>
 		<li><a href="#formation">Formation</a></li>
 		<li><a href="#collaboration">Collaboration</a></li>
 		</ul>
@@ -34,7 +34,7 @@ permalink: /champions-securite/
 		</li>
 		<li><a href="#devenir-un-champion-de-la-sécurité">Devenir un Champion de la sécurité</a><ul>
 		<li><a href="#pourquoi-devenir-un-champion-de-la-sécurité">Pourquoi devenir un champion de la sécurité</a></li>
-		<li><a href="#détails-">Détails :</a></li>
+		<li><a href="#détails">Détails</a></li>
 		<li><a href="#comment-puis-je-devenir-un-champion-de-la-sécurité-">Comment puis-je devenir un Champion de la sécurité ?</a></li>
 		</ul>
 		</li>
@@ -170,7 +170,7 @@ Voulez-vous devenir un membre participant du Réseau des champions de la sécuri
 
 **Si vous avez répondu oui à l’une des questions ci-dessus, vous êtes un bon candidat pour être un champion de la sécurité.**
 
-## Détails :
+## Détails
 
 Le rôle d’un champion de la sécurité est d’être une personne-ressource qui représente la sécurité de la technologie de l’information (TI) au sein de son équipe de la solution/équipe de développement des applications. La formation à la sécurité, l’accès aux experts en matière de sécurité et la base de connaissances vous aideront à devenir l’expert en matière de sécurité au sein de votre équipe. Cela vous aidera à devenir un influenceur de la sécurité au sein de votre équipe où vous serez actif en rappelant à vos membres d’équipes que la sécurité est leur responsabilité. Vous jouerez également un rôle clé dans la promotion du programme de sécurité du Ministère. De plus, vous deviendrez un membre participant du Réseau des champions de la sécurité et vous aurez l’occasion d’échanger des renseignements ainsi que d’apprendre des autres champions de la sécurité.
 
