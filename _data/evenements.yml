@@ -6,15 +6,15 @@
 #  part2: n/a
 
 past:
-  - date: "September 23, 2020"
-    topic: "Shifting Left with Open Source Governance"
+  - date: "23 septembre 2020"
+    topic: "Shifting Left with Open Source Governance (en anglais)"
     recording: https://www.brighttalk.com/webcast/18188/433568   
-  - date: "September 10, 2020"
-    topic: "DevSecOps in a Dangerous World"
+  - date: "10 septembre 2020"
+    topic: "DevSecOps in a Dangerous World (en anglais)"
     recording: https://www.brighttalk.com/webcast/18188/431239   
-  - date: "August 18, 2020"
-    topic: "AppSec Fast and Slow: Your DevSecOps CI/CD Pipeline Isn't an SSA Program"
+  - date: "18 août 2020"
+    topic: "AppSec Fast and Slow: Your DevSecOps CI/CD Pipeline Isn't an SSA Program (en anglais)"
     recording: https://www.denimgroup.com/resources/webinar/appsec-fast-and-slow-your-devsecops-ci-cd-pipeline-isnt-an-ssa-program/#form
     resources:
-      - title: "Overview of the webinar content"
+      - title: "Aperçu du contenu du séminaire en ligne"
         link: https://www.denimgroup.com/resources/webinar/appsec-fast-and-slow-your-devsecops-ci-cd-pipeline-isnt-an-ssa-program/    
