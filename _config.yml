@@ -1,5 +1,5 @@
-title: ESDC Security Knowledge Portal
-description: The Employment and Social Development Canada Security informational site on best practices and helpful resources for developers and Security Champions.
+title: Portail des connaissances sur la sécurité d'EDSC
+description: Le site d'information sur la sécurité d'Emploi et Développement Social Canada sur les meilleures pratiques et les ressources utiles pour les développeurs et les champions de la sécurité.
 
 plugins:
   - jemoji
