@@ -8,51 +8,42 @@ permalink: /champions-securite/
   <li>
   <details>
     <summary>
-		<h1 class="h3">Table of Contents</h1>
+		<h1 class="h3">Table des matières</h1>
 	</summary>
 	<p>
 		<ul>
-			<li><a href="#security-champions-overview">Security Champions Overview</a></li>
-			<li>
-				<ul>
-					<li><a href="#background">Background</a></li>
-					<li><a href="#the-security-champion-objectives">The Security Champion Objectives</a></li>
-					<li><a href="#roles-and-responsibilities-as-a-security-champion">Roles and Responsibilities as a Security Champion</a></li>
-					<li>
-						<ul>
-							<li><a href="#roles-and-responsibilities">Roles and Responsibilities</a></li>
-							<li><a href="#implementing-and-managing-security-tools">Implementing and managing security tools</a></li>
-							<li><a href="#training">Training</a></li>
-							<li><a href="#collaboration">Collaboration</a></li>
-						</ul>
-					</li>								
-					<li><a href="#security-tools-management">Security Tools Management</a></li>			
-					<li><a href="#the-end-goal">The End Goal</a></li>			
-					<li><a href="#getting-to-know-our-partners">Getting to know our Partners</a></li>
-					<li>
-						<ul>
-							<li><a href="#business">Business</a></li>
-							<li><a href="#the-it-security-teams">The IT Security Teams</a></li>
-						</ul>
-					</li>						
-					<li><a href="#security-assessment-approach">Security Assessment Approach</a></li>	
-				</ul>				
-			</li>
-			<li><a href="#become-a-security-champion">Become a Security Champion</a></li>
-			<li>
-				<ul>
-					<li><a href="#reasons-to-become-a-security-champion">Reasons to become a Security Champion</a></li>
-					<li><a href="#details">Details</a></li>
-					<li><a href="#how-can-i-become-a-security-champion">How can I become a Security Champion</a></li>
-				</ul>
-			</li>
-			<li><a href="#our-security-champions">Our Security Champions</a></li>
+		<li><a href="#aperçu-des-champions-de-la-sécurité">Aperçu des champions de la sécurité</a><ul>
+		<li><a href="#contexte">Contexte</a></li>
+		<li><a href="#les-objectifs-dun-champion-de-la-sécurité">Les objectifs d’un champion de la sécurité</a></li>
+		<li><a href="#vos-rôles-et-responsabilités-en-tant-que-champion-de-la-sécurité">Vos rôles et responsabilités en tant que champion de la sécurité</a><ul>
+		<li><a href="#rôles-et-responsabilités">Rôles et Responsabilités</a></li>
+		<li><a href="#mise-en-oeuvre-et-gestion-des-outils-de-sécurité">Mise en œuvre et gestion des outils de sécurité</a></li>
+		<li><a href="#formation">Formation</a></li>
+		<li><a href="#collaboration">Collaboration</a></li>
+		</ul>
+		</li>
+		<li><a href="#gestion-des-outils-de-sécurité">Gestion des outils de sécurité</a></li>
+		<li><a href="#lobjectif-final">L’objectif final</a></li>
+		<li><a href="#apprendre-à-connaître-nos-partenaires">Apprendre à connaître nos partenaires</a><ul>
+		<li><a href="#opérations">Opérations</a></li>
+		<li><a href="#les-équipes-de-sécurité-des-ti">Les équipes de sécurité des TI</a></li>
+		</ul>
+		</li>
+		<li><a href="#approche-dévaluation-de-la-sécurité">Approche d’évaluation de la sécurité</a></li>
+		</ul>
+		</li>
+		<li><a href="#devenir-un-champion-de-la-sécurité">Devenir un Champion de la sécurité</a><ul>
+		<li><a href="#pourquoi-devenir-un-champion-de-la-sécurité">Pourquoi devenir un champion de la sécurité</a></li>
+		<li><a href="#détails-">Détails :</a></li>
+		<li><a href="#comment-puis-je-devenir-un-champion-de-la-sécurité-">Comment puis-je devenir un Champion de la sécurité ?</a></li>
+		</ul>
+		</li>
+		<li><a href="#nos-champions-de-la-sécurité">Nos Champions de la Sécurité</a></li>
 		</ul>
 	</p>
   </details>
   </li>
 </ul>
-  
 # Aperçu des champions de la sécurité
 
 ## Contexte 
@@ -68,7 +59,7 @@ La Sécurité des technologies de l’information met en œuvre la sécurité as
 * Devenir un influenceur de la sécurité et promouvoir le programme de sécurité du Ministère. 
 * Rappeler aux développeurs que la sécurité des applications est leur responsabilité.
 
-## Vos rôles et responsabilité en tant que champion de la sécurité
+## Vos rôles et responsabilités en tant que champion de la sécurité
 ### Rôles et Responsabilités
 
 * Mettre en œuvre et gérer des outils de sécurité.
@@ -82,9 +73,9 @@ La Sécurité des technologies de l’information met en œuvre la sécurité as
 * Promouvoir les meilleures pratiques.
 * Participer activement à un réseau de champions de la sécurité
 
-## Mise en œuvre et gestion des outils de sécurité
+### Mise en œuvre et gestion des outils de sécurité
 
-## Formation
+### Formation
 Une formation personnalisée sera proposée aux champions de la sécurité et sera dispensée à une date à déterminer. Cette formation portera sur les sujets suivants:
 * la sécurité par la conception ;
 * les contrôles de sécurité ITSG-33 ;
@@ -96,7 +87,7 @@ Une formation supplémentaire en matière de sécurité est fortement recommand�
 
 * [Formation en matière de sécurité]({{ '/' | absolute_url }}formation-securite-app/) 
 
-## Collaboration
+### Collaboration
 En tant que champion de la sécurité, vous serez invité à partager des informations sur la sécurité et à collaborer également sur les différentes plateformes du **réseau des champions de la sécurité **:
 
 - [GCConnex](https://gcconnex.gc.ca/groups/profile/59572173/esdc-security-champions-network-reseau-des-champions-de-la-securite-dedsc?language=fr)
@@ -223,3 +214,4 @@ Vous pouvez faire parvenir une demande directement via MS Teams dans la chaîne 
   </li>
 {% endfor %}
 </ul>
+  
