@@ -1,22 +1,24 @@
 ---
 layout: default
-title: Welcome to the ESDC Security Knowledge Portal!
+title: Bienvenue au Portail des connaissances de la sécurité d'EDSC!
 ---
+
+Ce portail de connaissances fournit un certain nombre de ressources utiles aux développeurs et aux champions de la sécurité afin de les aider à mettre en œuvre les meilleures pratiques de sécurité tout en développant leur produit, ce qui aboutirait à un produit ** sécurisé dès la conception **.
+
+## La sécurité dès la conception?
+
+La sécurité dès la conception est une approche du développement logiciel et matériel qui vise à rendre les systèmes aussi exempts de vulnérabilités et imperméables aux attaques que possible. C'est le processus qui intègre la sécurité dans le processus du cycle de développement des systèmes (CDS).
+
+Actuellement, lorsque des solutions sont développées, l'assurance de la sécurité est effectuée à la fin du projet, ce qui entraîne une atténuation du risque inefficace.
+Compte tenu de l'environnement de menace dynamique actuel, la sécurité informatique ne peut plus être une réflexion après coup.
+
+L'objectif est de favoriser une culture de la sécurité dès la conception dans laquelle la sécurité informatique est introduite au début du projet / de la solution, que la solution soit basée sur l'infonuagique ou non.
+
+Cela alignera le Ministère avec les lignes directrices de l'ITSG-33, et conformément à la Directive mise à jour du Conseil du Trésor sur la gestion de la sécurité et à la Politique sur la sécurité du gouvernement, qui est entrée en vigueur le 1er juillet 2019.
+
+La DGIIT intègre la sécurité dès la conception au processus CDS d’EDSC.
 
 This knowledge portal provides a number of helpful resources for developers and Security Champions in order to help them implement security best practices while they develop their product which would result in a product **secure by design**.
 
-## Security by Design?
-
-Security by Design is an approach to software and hardware development that seeks to make systems as free of vulnerabilities and impervious to attack as possible. It is the process that integrates security in the system development lifecycle process (SDLC).
-
-Currently when solutions are developed, security assurance is performed at the end of the project resulting in ineffective mitigation.
-Given today’s dynamic threat environment IT Security can no longer be an afterthought.
-
-The goal is to foster a culture of Security by Design whereby IT Security is introduced at the beginning of the project/solution regardless whether the solution is cloud based or not.
-
-This will align the department with with the guidance in ITSG-33 and in conformance with the updated Treasury Board Directive on Security Management and the Policy on Government Security, which took effect on July 1, 2019.
-
-IITB is integrating Security by Design within ESDC’s SDLC process. 
-
-[[Read more...]](security-by-design/)
+[[En savoir plus...]](securite-conception/)
 
