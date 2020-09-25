@@ -1,23 +1,22 @@
-# ESDC's Developer's Community of Practice
+# Portail des connaissances sur la sécurité d'EDSC
 
-This repository is used as the main home for our community site.
-<https://esdc-devcop.github.io/>
+Ce dépôt est utilisé comme site principal de notre portail de connaissances pour la version française.
+<https://edsc-pcs.github.io/>
 
-We publicize all our [recommendations](https://esdc-devcop.github.io/recommendations/) and [guides](https://esdc-devcop.github.io/guides/) on through separate repos, but are still available under the same site.
-Here we keep information about [upcoming sessions](https://esdc-devcop.github.io/strategy/dates.html), share [our goals](https://esdc-devcop.github.io/strategy/overview.html), and keep some [useful links](https://esdc-devcop.github.io#References) for developers.
+La version anglaise se trouve au [https://esdc-skp.github.io](https://esdc-skp.github.io).
 
-## Help Out
+## Aide
 
-We welcome contributions from anybody.
-Feel free to fork and submit a Pull Request (PR) to any of our repos.
-If you are from ESDC ask to join as a Member.
+Nous apprécions les contributions de quiconque.
+N'hésitez pas à créer une copie et à soumettre une demande de triage (Pull Request) à l'un de nos dépôts.
+Si vous êtes d'EDSC, demandez à devenir membre.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md)
+Voir [CONTRIBUTING.md] (CONTRIBUTING.md)
 
 ## License
 
-Unless otherwise noted, the source code of this project is covered under Crown Copyright, Government of Canada, and is distributed under the [Open Government Licence - Canada](LICENSE).
+Sauf indication contraire, le code source de ce projet est couvert par le droit d'auteur de la Couronne, Gouvernement du Canada, et est distribué sous la [Licence du gouvernement ouvert - Canada] (LICENCE).
 
-The Canada wordmark and related graphics associated with this distribution are protected under trademark law and copyright law.
-No permission is granted to use them outside the parameters of the Government of Canada's corporate identity program.
-For more information, see [Federal identity requirements](https://www.canada.ca/en/treasury-board-secretariat/topics/government-communications/federal-identity-requirements.html).
+Le mot-symbole Canada et les graphiques associés en lien avec cette distribution sont protégés en vertu des marques de commerce et du droit d'auteur.
+Aucune permission n'est accordée pour les utiliser en dehors des paramètres du programme d'identité corporative du Gouvernement du Canada.
+Pour en savoir plus, consultez [Exigences pour l'image de marque] (https://www.canada.ca/fr/secretariat-conseil-tresor/sujets/communications-gouvernementales/exigences-image-marque.html).
