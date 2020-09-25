@@ -5,7 +5,7 @@ permalink: /formation-securite-app/
 ---
 
 <ul class="list-unstyled">
-{% for course in site.data.app-security-training.training %}
+{% for course in site.data.formation-securite-app.training %}
   <li>
   <details>
     <summary>

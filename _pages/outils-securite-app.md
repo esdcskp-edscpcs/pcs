@@ -15,7 +15,7 @@ To request a licence for any of the following security tools, please [contact us
 NOTE: Developers can use any other supported security tools to fit their needs, but IT Security will require that the tool(s) selected integrate with the corporate Threadfix AVM solution. See [Additional recommended security tools](#additional-recommended-security-tools) for more details.
 
 <ul class="list-unstyled">
-{% for type in site.data.app-security-tools.standard %}
+{% for type in site.data.outils-securite-app.standard %}
   <li>
   <details>
     <summary>
@@ -56,7 +56,7 @@ NOTE: Developers can use any other supported security tools to fit their needs, 
 
 The following tools also integrate with the Threadfix corporate AVM tool and can be used instead of the standard tools listed above however, IT Security will not take ownership of these tools and may not be able to provide support for it.
 <ul class="list-unstyled">
-{% for type in site.data.app-security-tools.supported %}
+{% for type in site.data.outils-securite-app.supported %}
   <li>
   <details>
     <summary>
