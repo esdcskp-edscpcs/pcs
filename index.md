@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Bienvenue au Portail des connaissances de la sécurité d'EDSC!
+title: Bienvenue au Portail des connaissances sur la sécurité d'EDSC!
 ---
 
 Ce portail de connaissances fournit un certain nombre de ressources utiles aux développeurs et aux champions de la sécurité afin de les aider à mettre en œuvre les meilleures pratiques de sécurité tout en développant leur produit, ce qui aboutirait à un produit **sécurisé dès la conception**.
