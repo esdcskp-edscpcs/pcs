@@ -1,173 +1,173 @@
 standard:
-  - focus: "Static Application Security Testing (SAST)"
+  - focus: "Test de sécurité statique des applications (TSSA)"
     definition: |
-      <p>Static application security testing (SAST) is a type of security testing that relies on inspecting the source code of an application. In general, SAST involves looking at the ways the code is designed to pinpoint possible security flaws.</p>      
-      <p>SAST is often contrasted with another term that is, in some ways, opposite to it: dynamic application security testing (DAST). The difference between these two is that, with SAST, testers read the source code. They look for logical flaws, such as a loophole in data control, something that a hacker could use to gain access to the system. In contrast, in DAST, testers do not look at the source code but perform behavioral testing instead — they run the application and look for flaws that way.</p>      
-      <p>IT experts also differentiate between the two using the terms "white box testing" and "black box testing." SAST is white box testing because the source code for the application is available and transparent. That is what testers look at. In contrast, DAST is black box testing because the source code is not part of the equation. Instead, black box testers rely solely on the behavior of the application.</p>
+      <p>Le test de sécurité statique d'application (TSSA) est un type de test de sécurité qui repose sur l'inspection du code source d'une application. En général, TSSA consiste à examiner la manière dont le code est conçu pour identifier d'éventuelles failles de sécurité.</p>
+      <p>TSSA est souvent comparé à un autre terme qui, à certains égards, lui est opposé: le test de sécurité dynamique des applications (TSDA). La différence entre ces deux est que, avec TSSA, les testeurs lisent le code source. Ils recherchent des failles logiques, comme une faille dans le contrôle des données, quelque chose qu'un pirate pourrait utiliser pour accéder au système. En revanche, dans TSDA, les testeurs ne regardent pas le code source mais effectuent des tests comportementaux à la place - ils exécutent l'application et recherchent les failles de cette façon.</p>
+      <p>Les experts en informatique font également la distinction entre les deux en utilisant les termes «test de boîte blanche» et «test de boîte noire». TSSA est un test de boîte blanche car le code source de l'application est disponible et transparent. C'est ce que regardent les testeurs. En revanche, TSDA est un test de boîte noire car le code source ne fait pas partie de l'équation. Au lieu de cela, les testeurs de boîte noire s'appuient uniquement sur le comportement de l'application.</p>
     tools:
       - name: Microfocus Fortify Static Code Analyzer
-        availability: "On Premise/Cloud"
+        availability: "Interne/Infonuagique"
         details: "https://www.microfocus.com/en-us/products/static-code-analysis-sast/overview"
-        guide: "../guides/mf-fortify-sca-wi-integration-with-jenkins"
-  - focus: "Dynamic Application Security Testing (DAST)"
+        guide: "../guides/mf-fortify-sca-wi-integration-avec-jenkins"
+  - focus: "Test de sécurité dynamique d'application (TSDA)"
     definition: |
-      <p>Dynamic application security testing (DAST) is a process of testing an application or software product in an operating state. This kind of testing is helpful for industry-standard compliance and general security protections for evolving projects.</p>      
-      <p>Typically, IT professionals contrast dynamic application security testing (DAST) with another type of testing, static application security testing (SAST). Whereas DAST involves operational testing, SAST involves looking at the source code and theorizing about security vulnerabilities or spotting design and construction flaws with potential for vulnerability. Moreover, DAST may be called "behavioral testing" in that testers often find problems that are not specifically linked to a code module, but happened during use. The task then is to trace them back to their roots in terms of the software design.</p>      
-      <p>Tech companies offer both DAST and SAST services. Typically, these cover different types of ground in comprehensive testing processes — for example, DAST may only cover certain parts of the interface or design. Using DAST and SAST in combination can help catch different types of security problems before a product is released or develops a growing user base.</p>
+      <p> Le test de sécurité dynamique d'application (TSDA) est un processus de test d'une application ou d'un produit logiciel dans un état de fonctionnement. Ce type de test est utile pour la conformité aux normes de l'industrie et les protections générales de sécurité pour les projets en évolution.</p>
+      <p>En règle générale, les professionnels de l'informatique comparent les tests de sécurité dynamique des applications (TSDA) à un autre type de test, les tests de sécurité des applications statiques (TSSA). Alors que TSDA implique des tests opérationnels, TSSA consiste à examiner le code source et à théoriser sur les vulnérabilités de sécurité ou à repérer les défauts de conception et de compilation avec un potentiel de vulnérabilité. De plus, TSDA peut être appelé "test comportemental" dans la mesure où les testeurs trouvent souvent des problèmes qui ne sont pas spécifiquement liés à un module de code, mais qui se sont produits pendant l'utilisation. La tâche est alors de les retracer à leurs sources en termes de conception du logiciel. </p>
+      <p>Les entreprises technologiques offrent à la fois les services TSDA et TSSA. En règle générale, ceux-ci couvrent différents types de terrain dans des processus de test complets - par exemple, TSDA peut ne couvrir que certaines parties de l'interface ou de la conception. L'utilisation combinée de TSDA et TSSA peut aider à détecter différents types de problèmes de sécurité avant qu'un produit ne soit commercialisé ou ne développe une base d'utilisateurs croissante.</p>
     tools:
       - name: OWASP ZAP
-        availability: "On Premise/Cloud"
+        availability: "Interne/Infonuagique"
         details: "https://owasp.org/www-project-zap/"
       - name: Microfocus Fortify Web Inspect
-        availability: "On Premise"
+        availability: "Interne"
         details: "https://www.microfocus.com/en-us/products/webinspect-dynamic-analysis-dast/overview"
         guide: "../guides/mf-fortify-sca-wi-integration-with-jenkins"        
-  - focus: "Software Composition Analysis (SCA)"
+  - focus: "Analyse de Composition Logicielle (ACL)"
     definition: |
-      <p>Software composition analysis (SCA) is an open source component management tool. It generates a report listing all open source components in a given product – including direct and indirect dependencies. Using an SCA, a development team can quickly track and analyze any open source component brought into a project.</p>      
-      <p>A SCA solution allows for the secure risk management of open source use throughout the software supply chain, allowing the security team and developers to create an accurate Bill of Materials (BOM) for all your applications, discover and track all open source, set and enforce policies, enable proactive and continuous monitoring. and seamlessly integrate open source code scanning into the build environment.</p>      
+      <p>L'analyse de composition logicielle (ACL) est un outil de gestion de composants à code source ouvert. Il génère un rapport répertoriant tous les composants à code source ouvert d'un produit donné, y compris les dépendances directes et indirectes. À l'aide d'un ACL, une équipe de développement peut rapidement suivre et analyser tout composant à code source ouvert intégré à un projet.</p>
+      <p>Une solution ACL permet une gestion sécurisée des risques liés à l'utilisation du code source ouvert tout au long de la chaîne d'approvisionnement du logiciel, permettant à l'équipe de sécurité et aux développeurs de créer une nomenclature précise pour toutes vos applications, de découvrir et de suivre toutes les sources ouvertes, définir et appliquer des politiques, permettre une surveillance proactive et continue et intégrez de manière transparente l'analyse de code source ouvert dans l'environnement de compilation.</p>    
     tools:
       - name: Sonatype Nexus Lifecycle
-        availability: "Cloud"
+        availability: "Infonuagique"
         details: "https://www.sonatype.com/nexus/lifecycle"
-  - focus: "Container Security"
+  - focus: "Sécurité des conteneurs"
     definition: |     
-      <p>Container security tools will help scanning container images, VM images, and functions for known vulnerabilities, embedded secrets, malware, configuration issues, and over-provisioned permissions, integrating directly to the CI pipeline, as well as into registries or function stores. Additionally, they can detect and prevent images with hidden malware that evade static scanning from being deployed in production environments, and "shifts left" incident response.</p>      
+      <p>Les outils de sécurité des conteneurs aideront à analyser les images de conteneurs, les images de machines virtuelles et les fonctions à la recherche de vulnérabilités connues, de secrets intégrés, de logiciels malveillants, de problèmes de configuration et d'autorisations sur-provisionnées, en s'intégrant directement au pipeline CI, ainsi que dans les registres ou les dépôts de fonctions. En outre, ils peuvent détecter et empêcher les images contenant des logiciels malveillants cachés qui échappent au déploiement de l'analyse statique dans les environnements de production, et «décale» la réponse aux incidents.</p> 
     tools:
       - name: Aqua Security
-        availability: "Cloud"
+        availability: "Infonuagique"
         details: "https://www.aquasec.com/products/container-security/"
-  - focus: "Interactive Application Security Testing"
+  - focus: "Test de sécurité interactif d'application (TSIA)"
     definition: |     
-      <p>Because both SAST and DAST are older technologies, there are those who argue they lack what it takes to secure modern web and mobile apps. For example, SAST has a difficult time dealing with libraries and frameworks found in modern apps. That’s because static tools only see the application source code they can follow. What’s more, libraries and third­party components often cause static tools to choke, producing “lost sources” and “lost sinks” messages. The same is true for frameworks. Run a static tool on an API, web service or REST endpoint, and it won’t find anything wrong in them because it can’t understand the framework.</p>
-      <p>IAST is designed to address the shortcomings of SAST and DAST by combining elements of both approaches. IAST places an agent within an application and performs all its analysis in the app in real-time and anywhere in the development process ­­ IDE, continuous integrated environment, QA or even in production.</p>
-      <p>Because the IAST agent is working inside the app, it can apply its analysis to the entire app ­­ all its code; its runtime control and data flow information; its configuration information; HTTP requests and responses; libraries, frameworks and other components; and backend connection information. Access to all that information allows the IAST engine to cover more code, produce more accurate results and verify a broader range of security rules than either SAST or DAST.</p>
+      <p>Étant donné que TSSA et TSDA sont des technologies plus anciennes, certains affirment ne pas avoir ce qu'il faut pour sécuriser les applications Web et mobiles modernes. Par exemple, TSSA a du mal à gérer les bibliothèques et les cadriciels présents dans les applications modernes. En effet, les outils statiques ne voient que le code source de l’application qu’ils peuvent suivre. De plus, les bibliothèques et les composants tiers provoquent souvent l’étouffement des outils statiques, produisant des messages «sources perdues» et «puits perdus». La même chose est vraie pour les cadriciels. Exécutez un outil statique sur une API, un service Web ou un point de terminaison REST, et il n'y trouvera rien de mal car il ne comprend pas le cadriciel.</p>
+      <p>La TSIA est conçue pour remédier aux lacunes de la TSSA et de la TSDA en combinant des éléments des deux approches. TSIA place un agent dans une application et effectue toutes ses analyses dans l'application en temps réel et n'importe où dans le processus de développement IDE, environnement intégré continu, assurance qualité ou même en production.</p>
+      <p>Étant donné que l'agent TSIA travaille à l'intérieur de l'application, il peut appliquer son analyse à l'ensemble de l'application et de tout son code; ses informations de contrôle d'exécution et de flux de données; ses informations de configuration; requêtes et réponses HTTP; bibliothèques, cadriciels et autres composants; et les informations de connexion à l'arrière-plan. L'accès à toutes ces informations permet au moteur TSIA de couvrir plus de code, de produire des résultats plus précis et de vérifier un plus large éventail de règles de sécurité que TSSA ou TSDA.</p>
 supported:
-  - focus: "Static Application Security Testing (SAST)"
+  - focus: "Test de sécurité statique des applications (TSSA)"
     tools:
       - name: FindBugs 2
         product: <br />
-        pricing: "Open Source"
+        pricing: "Code source ouvert"
         details: "http://findbugs.sourceforge.net/findbugs2.html"
       - name: Brakeman
         product: <br />
-        pricing: "Open Source"
+        pricing: "Code source ouvert"
         details: "https://brakemanscanner.org/docs/introduction/"
       - name: Synopsis
         product: Coverity
-        pricing: "Open Source"
+        pricing: "Code source ouvert"
         details: "https://scan.coverity.com/"   
       - name: SonarQube
         product: <br />
-        pricing: "Open Source"
+        pricing: "Code source ouvert"
         details: "https://www.sonarqube.org/"        
       - name: Whitehat Security
         product: Sentinel Source
-        pricing: "Paid Solution"
+        pricing: "Solution payante"
         details: "https://www.whitehatsec.com/wp-content/uploads/2019/09/sentinel-source-data-sheet.pdf"
       - name: Checkmarx
-        product: CxSAST
-        pricing: "Paid Solution"
+        product: CxTSSA
+        pricing: "Solution payante"
         details: "https://info.checkmarx.com/cs/c/?cta_guid=053c822b-50f2-49ad-90b7-63132e8e92a5&placement_guid=d867b379-e966-4445-a5d3-bdb11e842d5f&portal_id=146169&canon=https%3A%2F%2Fwww.checkmarx.com%2Fresources%2Fdatasheets%2F&redirect_url=APefjpHRODT5ljw5fwOmt3wrG6pY-tk2UmILxJyUkiim0O5lMAmTW-aHY5yR_-SWjkgCXabR84Bb2GkW0GhvxbyvXGNA9Zt78SY65VT-RWNytiBcXSaQoCAXADhG26fFLwzgUpFdvja3ve6vu33xWWAclRgLfEL1RHzE_O9zUjO8dGaC28GwYHxWA0rNitN3ELHJ5gTXmr1XULn5k5armOG0AHTcUT_BuQLnxC03J_vNOdyrxrQNX1icZGP0FpRlKn9xBTL8-eCCy2EqM_wtoLLn-PP5mVB0W3fHqX1VdzKsM6JGv3gSAnI&click=3eb86f62-b61e-4359-9134-925313b25e84&hsutk=0f3d263cbc849ffe3a5a1cea61bed534&signature=AAH58kG78oRavDIQYSz8pMIrWXZo854VoA&utm_referrer=https%3A%2F%2Fwww.google.com%2F&__hstc=206289484.0f3d263cbc849ffe3a5a1cea61bed534.1580481761772.1580481761772.1580497654586.2&__hssc=206289484.1.1580497654586&__hsfp=93133625"
       - name: HCL
         product: AppScan Source
-        pricing: "Paid Solution"
+        pricing: "Solution payante"
         details: "https://www.hcltechsw.com/wps/wcm/connect/b2e02c11-d358-49ee-9f41-e9991d9a9a46/WX-IC6984-AT109398+HCL+AppScan+Source+Brochure.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-b2e02c11-d358-49ee-9f41-e9991d9a9a46-mKf8tkr"        
       - name: HCL
-        product: AppScan On Cloud
-        pricing: "Paid Solution"
-        details: "https://www.hcltechsw.com/wps/wcm/connect/a4d045e1-6fff-450e-bfc9-5ea11ad4b5ae/WX-IC6984-AT109395+AppScan+on+Cloud+Brochure.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-a4d045e1-6fff-450e-bfc9-5ea11ad4b5ae-mKf7Ve8"               
+        product: AppScan On Infonuagique
+        pricing: "Solution payante"
+        details: "https://www.hcltechsw.com/wps/wcm/connect/a4d045e1-6fff-450e-bfc9-5ea11ad4b5ae/WX-IC6984-AT109395+AppScan+on+Infonuagique+Brochure.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-a4d045e1-6fff-450e-bfc9-5ea11ad4b5ae-mKf7Ve8"               
       - name: Virtual Forge
         product: Code Profiler
-        pricing: "Paid Solution"
+        pricing: "Solution payante"
         details: "https://cdn2.hubspot.net/hubfs/697523/Virtual%20Forge_Code_Security_Solutionbrief_EN_WEB.pdf?__hssc=147524648.3.1580757599667&__hstc=147524648.89a4238cbd541b15661eda1359763e1c.1580482300490.1580482300490.1580757599667.2&__hsfp=93133625&hsCtaTracking=4fc6f545-5521-4f8a-b768-45e472a2cd3f%7C7c60ab6e-8746-40e1-89d9-d1a734405cce"  
       - name: Veracode
         product: Binary Static Analysis
-        pricing: "Paid Solution"
+        pricing: "Solution payante"
         details: "https://www.veracode.com/products/binary-static-analysis-sast"
-  - focus: "Dynamic Application Security Testing (DAST)"
+  - focus: "Test de sécurité dynamique d'application (TSDA)"
     tools:
       - name: Arachni
         product: <br />
-        pricing: "Open Source"
+        pricing: "Code source ouvert"
         details: "https://www.arachni-scanner.com/"
       - name: W3AF
         product: <br />
-        pricing: "Open Source"
+        pricing: "Code source ouvert"
         details: "http://w3af.org/"
       - name: SkipFish
         product: <br />
-        pricing: "Open Source"
+        pricing: "Code source ouvert"
         details: "https://tools.kali.org/web-applications/skipfish"   
       - name: Portswigger
         product: BurpSuite Pro
-        pricing: "Paid Solution"
+        pricing: "Solution payante"
         details: "https://portswigger.net/burp/Burp%20Suite%20Pro%20Data%20sheet.pdf"
       - name: Whitehat
         product: Sentinel Dynamic
-        pricing: "Paid Solution"
+        pricing: "Solution payante"
         details: "https://www.whitehatsec.com/wp-content/uploads/2016/01/Sentinel-Dynamic-Datasheet-2019-1.pdf"
       - name: Acunetix
         product: <br />
-        pricing: "Paid Solution"
+        pricing: "Solution payante"
         details: "https://www.acunetix.com/"        
       - name: Netsparker
         product: <br />
-        pricing: "Paid Solution"
+        pricing: "Solution payante"
         details: "https://www.netsparker.com/statics/Netsparker-Datasheet-Web-Version.pdf"               
       - name: Qualys
         product: Web Application Scanning
-        pricing: "Paid Solution"
+        pricing: "Solution payante"
         details: "https://www.qualys.com/docs/web-application-scanning-datasheet.pdf"  
       - name: Rapid7
         product: AppSpider
-        pricing: "Paid Solution"
+        pricing: "Solution payante"
         details: "https://www.rapid7.com/products/insightappsec/features/"      
       - name: HCL
         product: AppScan Enterprise
-        pricing: "Paid Solution"
+        pricing: "Solution payante"
         details: "https://www.hcltechsw.com/wps/wcm/connect/ce3e6bf7-6290-40e5-a0bf-8b632031edd8/WX-IC6984-AT109404+HCL+AppScan+Enterprise.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-ce3e6bf7-6290-40e5-a0bf-8b632031edd8-mKf8mxI"      
       - name: HCL
         product: AppScan Standard
-        pricing: "Paid Solution"
+        pricing: "Solution payante"
         details: "https://www.hcltechsw.com/wps/wcm/connect/516e34e8-cef7-4b73-94a0-0b9c92c02b1f/WX-IC6984-AT109392+HCL+AppScan+Standard.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-516e34e8-cef7-4b73-94a0-0b9c92c02b1f-mKf8pw9"      
       - name: HCL
-        product: AppScan On Cloud
-        pricing: "Paid Solution"
-        details: "https://www.hcltechsw.com/wps/wcm/connect/a4d045e1-6fff-450e-bfc9-5ea11ad4b5ae/WX-IC6984-AT109395+AppScan+on+Cloud+Brochure.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-a4d045e1-6fff-450e-bfc9-5ea11ad4b5ae-mKf7Ve8"      
+        product: AppScan On Infonuagique
+        pricing: "Solution payante"
+        details: "https://www.hcltechsw.com/wps/wcm/connect/a4d045e1-6fff-450e-bfc9-5ea11ad4b5ae/WX-IC6984-AT109395+AppScan+on+Infonuagique+Brochure.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-a4d045e1-6fff-450e-bfc9-5ea11ad4b5ae-mKf7Ve8"      
       - name: Tenable.io
         product: <br />
-        pricing: "Paid Solution"
+        pricing: "Solution payante"
         details: "https://www.tenable.com/sites/drupal.dmz.tenablesecurity.com/files/datasheets/DataSheet-Tenable.io_.pdf"      
       - name: Veracode
         product: Dynamic Analysis
-        pricing: "Paid Solution"
+        pricing: "Solution payante"
         details: "https://www.veracode.com/products/dynamic-analysis-dast"
-  - focus: "Software Composition Analysis (SCA)"
+  - focus: "Analyse de Composition Logicielle (ACL)"
     tools:
       - name: OWASP
         product: Dependency-Check
-        pricing: "Open Source"
+        pricing: "Code source ouvert"
         details: "https://owasp.org/www-project-dependency-check/"
       - name: Snyk
-        product: Open Source
-        pricing: "Paid Solution"
+        product: Code source ouvert
+        pricing: "Solution payante"
         details: "https://snyk.io/product/open-source-security-management/"     
       - name: Veracode
         product: Software Composition Analysis
-        pricing: "Paid Solution"
+        pricing: "Solution payante"
         details: "https://www.veracode.com/products/software-composition-analysis"         
       - name: Synopsis
         product: BlackDuck
-        pricing: "Paid Solution"
+        pricing: "Solution payante"
         details: "https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html"         
       - name: WhiteSource
         product: <br />
-        pricing: "Paid Solution"
+        pricing: "Solution payante"
         details: "https://www.whitesourcesoftware.com/open-source-scan-lp/?utm_origin=ad&utm_from=Bing&utm_pcampaign=fs.brand.us-ca.search&utm_gen=Searched%20Term:whitesource&msclkid=f2e4c7439e75170c7bdb9828147d1530&utm_source=bing&utm_medium=cpc&utm_campaign=fs.brand.us-ca.search&utm_term=whitesource&utm_content=WhiteSource"    
-  - focus: "Interactive Application Security Testing (IAST)"
+  - focus: "Test de sécurité interactif d'application (TSIA)"
     tools:
       - name: Contrast Security
         product: Assess
-        pricing: "Paid Solution"
+        pricing: "Solution payante"
         details: "https://www.contrastsecurity.com/interactive-application-security-testing-iast"        

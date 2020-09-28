@@ -4,15 +4,15 @@ layout: default
 permalink: /outils-securite-app/
 ---
 
-## ESDC Standard Security Tools
+## Outils de sécurité standard d'EDSC
 
-IT Security requires development teams to integrate into their CI/CD Pipeline at least the following types of security testing using the recommended tools. The following tools are standard within the departement and integrates with the [**Threadfix**](https://threadfix.it/) corporate Application Vulnerabilities Management (AVM) tool in order to consolidate the results of all security tools scanning throughout the department. 
+La sécurité informatique nécessite que les équipes de développement intègrent dans leur pipeline CI / CD au moins les types de tests de sécurité suivants à l'aide des outils recommandés. Les outils suivants sont standards au sein du ministère et s'intègrent à l'outil de gestion des vulnérabilités des applications (GVA) d'entreprise [** Threadfix **] (https://threadfix.it/) afin de consolider les résultats de l'analyse de tous les outils de sécurité de l'ensemble du ministère.
 
-Implementation guides for our standard security tools can be found next to the product as soon as they are available to distribute.
+Les guides de mise en œuvre de nos outils de sécurité standards se trouvent à côté du produit dès qu'ils sont disponibles pour la distribution.
 
-To request a licence for any of the following security tools, please [contact us via the MS Teams Security Champions Network](https://teams.microsoft.com/l/channel/19%3a7fb48ff71f584a309817c64b3d599a77%40thread.tacv2/Licenses?groupId=bea80905-7f0f-432d-9a83-60561c1efcd2&tenantId=9ed55846-8a81-4246-acd8-b1a01abfc0d1).
+Pour demander une licence pour l'un des outils de sécurité suivants, veuillez [nous contacter via le Réseau des Champions de la Sécurité sur MS Teams](https://teams.microsoft.com/l/channel/19%3a7fb48ff71f584a309817c64b3d599a77%40thread.tacv2/Licenses?groupId=bea80905-7f0f-432d-9a83-60561c1efcd2&tenantId=9ed55846-8a81-4246-acd8-b1a01abfc0d1).
 
-NOTE: Developers can use any other supported security tools to fit their needs, but IT Security will require that the tool(s) selected integrate with the corporate Threadfix AVM solution. See [Additional recommended security tools](#additional-recommended-security-tools) for more details.
+REMARQUE: Les développeurs peuvent utiliser tout autre outil de sécurité pris en charge pour répondre à leurs besoins, mais la sécurité informatique exigera que le ou les outils sélectionnés s'intègrent à la solution GVA d'entreprise Threadfix. Voir [Outils de sécurité additonnels recommandés](#outils-de-sécurité-additonnels-recommandés) pour plus de détails.
 
 <ul class="list-unstyled">
 {% for type in site.data.outils-securite-app.standard %}
@@ -25,7 +25,7 @@ NOTE: Developers can use any other supported security tools to fit their needs, 
       {{ type.definition %}}
     {% endif %}
     {% if type.tools %}
-		<p><strong>Corporate Standard(s):</strong></p>
+		<p><strong>Standard(s) corporatif(s):</strong></p>
 		<ul class="list-group list-inline row mrgn-lft-0 mrgn-rght-0">
 		  {% assign list_of_tools = type.tools | sort_natural: "name" %}
 		  {% for tool in list_of_tools %}
@@ -36,7 +36,7 @@ NOTE: Developers can use any other supported security tools to fit their needs, 
 				  <li>{{ tool.availability }}</li>
 				{% endif %}
 				{% if tool.details %}
-				  <li><a href="{{ tool.details }}" target="_blank">Details</a></li>
+				  <li><a href="{{ tool.details }}" target="_blank">Détails</a></li>
 				{% endif %}
 				{% if tool.guide %}
 				  <li><a href="{{ tool.guide }}" target="_blank">Guide</a></li>
@@ -46,15 +46,17 @@ NOTE: Developers can use any other supported security tools to fit their needs, 
 		  {% endfor %}
 		</ul>
 	{% else %}
-		<p><strong>ESDC has not procured any tool of this type so far.</strong></p>
+		<p><strong>EDSC n'a pas acheté d'outil de ce type jusqu'à présent.</strong></p>
 	{% endif %}
   </details>
   </li>
 {% endfor %}
 </ul>
-## Additional Recommended Security Tools
 
-The following tools also integrate with the Threadfix corporate AVM tool and can be used instead of the standard tools listed above however, IT Security will not take ownership of these tools and may not be able to provide support for it.
+## Outils de sécurité additionnels recommandés
+
+Les outils suivants s'intègrent également à l'outil AVM d'entreprise Threadfix et peuvent être utilisés à la place des outils standard listés ci-dessus. Cependant, la sécurité informatique ne s'appropriera pas ces outils et ne pourra peut-être pas en assurer le support.
+
 <ul class="list-unstyled">
 {% for type in site.data.outils-securite-app.supported %}
   <li>
@@ -63,7 +65,7 @@ The following tools also integrate with the Threadfix corporate AVM tool and can
       <h2 class="h3" id="{{ type.focus | slugify }}">{{ type.focus }}</h2>
     </summary>
     {% if type.tools %}
-		<p><strong>Additional Recommended Tool(s):</strong></p>
+		<p><strong>Outil(s) de sécurité additionnel(s) recommandé(s):</strong></p>
 		<ul class="list-group list-inline row mrgn-lft-0 mrgn-rght-0">
 		  {% assign list_of_tools = type.tools | sort_natural: "name" %}
 		  {% for tool in list_of_tools %}
@@ -74,7 +76,7 @@ The following tools also integrate with the Threadfix corporate AVM tool and can
 				  <li>{{ tool.pricing }}</li>
 				{% endif %}
 				{% if tool.details %}
-				  <li><a href="{{ tool.details }}" target="_blank">Details</a></li>
+				  <li><a href="{{ tool.details }}" target="_blank">Détails</a></li>
 				{% endif %}
 				{% if tool.guide %}
 				  <li><a href="{{ tool.guide }}" target="_blank">Guide</a></li>
@@ -84,7 +86,7 @@ The following tools also integrate with the Threadfix corporate AVM tool and can
 		  {% endfor %}
 		</ul>
 	{% else %}
-		<p><strong>ESDC has not procured any tool of this type so far.</strong></p>
+		<p><strong>EDSC n'a pas acheté d'outil de ce type jusqu'à présent.</strong></p>
 	{% endif %}
   </details>
   </li>
