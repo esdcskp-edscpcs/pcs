@@ -1,5 +1,5 @@
 <!--markdownlint-disable MD025-->
-# Code de conduite pour le projet 'edsc-pcs.github.io'
+# Code de conduite pour le projet 'esdcskp-edscpcs.github.io'
 <!--markdownlint-enable MD025-->
 
 Les contributeurs aux dépôts hébergés dans 'edsc-pcs.github.io' sont tenus de respecter le Code de conduite du Pacte des contributeurs, et ceux qui travaillent au sein du gouvernement sont également tenus de respecter le Code de valeurs et d'éthique du secteur public.

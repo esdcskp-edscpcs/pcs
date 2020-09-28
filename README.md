@@ -1,9 +1,9 @@
 # Portail des connaissances sur la sécurité d'EDSC
 
 Ce dépôt est utilisé comme site principal de notre portail de connaissances pour la version française.
-<https://edsc-pcs.github.io/>
+<https://esdcskp-edscpcs.github.io/pcs/>
 
-La version anglaise se trouve au [https://esdc-skp.github.io](https://esdc-skp.github.io).
+La version anglaise se trouve au [https://esdcskp-edscpcs.github.io/skp/](https://esdcskp-edscpcs.github.io/skp/).
 
 ## Aide
 
