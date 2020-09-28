@@ -6,7 +6,7 @@ permalink: /owasp-top-10/
 
 ![Open Web Application Security Project](../assets/OWASP-180x100.png)
 
-**Note:** Les liens suggèrent des détails sur les risques en question sur un site en anglais seulement.
+**Note:** Les liens vous amènent vers des détails sur les risques en question sur un site en anglais seulement.
 
 [1. Injection](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A1-Injection). 
 -----------------------------------------------------------------------------------------------
