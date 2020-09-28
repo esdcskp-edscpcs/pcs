@@ -12,7 +12,7 @@ permalink: /securite-conception/
 	</summary>
 	<p>
 		<ul>
-		<li><a href="#la-sécurité-dès-la-conception-à-edsc"><strong>La sécurité dès la conception à EDSC</strong></a></li>
+		<li><a href="#la-sécurité-dès-la-conception-à-edsc">La sécurité dès la conception à EDSC</a></li>
 		<li><a href="#la-sécurité-dès-la-conception-selon-owasp">La sécurité dès la conception selon OWASP</a><ul>
 		<li><a href="#classification-des-actifs">Classification des actifs</a></li>
 		<li><a href="#à-propos-des-attaquants">À propos des attaquants</a></li>
