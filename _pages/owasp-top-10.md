@@ -4,98 +4,56 @@ layout: default
 permalink: /owasp-top-10/
 ---
 
-![Open Web Application Security Project](../assets/OWASP-180x100.png) 
+![Open Web Application Security Project](../assets/OWASP-180x100.png)
+
+**Note:** Les liens suggèrent des détails sur les risques en question sur un site en anglais seulement.
 
 [1. Injection](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A1-Injection). 
 -----------------------------------------------------------------------------------------------
 
-Injection flaws, such as SQL, NoSQL, OS, and LDAP injection, occur
-when untrusted data is sent to an interpreter as part of a command or
-query. The attacker’s hostile data can trick the interpreter into
-executing unintended commands or accessing data without proper
-authorization.
+Des failles d'injection, telles que l'injection SQL, NoSQL, OS et LDAP, se produisent lorsque des données non fiables sont envoyées à un interpréteur dans le cadre d'une commande ou d'une requête. Les données hostiles de l'attaquant peuvent inciter l'interpréteur à exécuter des commandes involontaires ou à accéder aux données sans autorisation appropriée.
 
-[2. Broken Authentication](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A2-Broken_Authentication)
+[2. Authentification brisée](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A2-Broken_Authentication)
 ----------------------------------------------------------------------------------------------------------------------
 
-> Application functions related to authentication and session management
-> are often implemented incorrectly, allowing attackers to compromise
-> passwords, keys, or session tokens, or to exploit other implementation
-> flaws to assume other users’ identities temporarily or permanently.
+Les fonctions applicatives liées à l'authentification et à la gestion de session sont souvent mal mis en oeuvre, ce qui permet aux attaquants de compromettre les mots de passe, les clés ou les jetons de session, ou d'exploiter d'autres failles de mise en oeuvre pour assumer temporairement ou définitivement l'identité des autres utilisateurs.
 
-[3. Sensitive Data Exposure](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A3-Sensitive_Data_Exposure). 
+[3. Exposition des données sensible](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A3-Sensitive_Data_Exposure). 
 ---------------------------------------------------------------------------------------------------------------------------
 
-> Many web applications and APIs do not properly protect sensitive data,
-> such as financial, healthcare, and PII. Attackers may steal or modify
-> such weakly protected data to conduct credit card fraud, identity
-> theft, or other crimes. Sensitive data may be compromised without
-> extra protection, such as encryption at rest or in transit, and
-> requires special precautions when exchanged with the browser.
+De nombreuses applications Web et API ne protègent pas correctement les données sensibles, telles que les données financières, les soins de santé et les informations personnelles. Les attaquants peuvent voler ou modifier ces données faiblement protégées pour mener une fraude par carte de crédit, un vol d'identité ou d'autres crimes. Les données sensibles peuvent être compromises sans protection supplémentaire, telle que le cryptage au repos ou en transit, et nécessitent des précautions particulières lorsqu'elles sont échangées avec le navigateur.
 
-[4. XML External Entities (XXE)](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A4-XML_External_Entities_(XXE)). 
+[4. Entités externes XML (XXE)](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A4-XML_External_Entities_(XXE)). 
 -----------------------------------------------------------------------------------------------------------------------------------
 
-> Many older or poorly configured XML processors evaluate external
-> entity references within XML documents. External entities can be used
-> to disclose internal files using the file URI handler, internal file
-> shares, internal port scanning, remote code execution, and denial of
-> service attacks.
+De nombreux processeurs XML plus anciens ou mal configurés évaluent les références d'entités externes dans les documents XML. Les entités externes peuvent être utilisées pour divulguer des fichiers internes à l'aide du gestionnaire d'URI de fichier, des partages de fichiers internes, de l'analyse des ports internes, de l'exécution de code à distance et des attaques par déni de service.
 
-[5. Broken Access Control](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A5-Broken_Access_Control). 
+[5. Contrôle d'accès brisé](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A5-Broken_Access_Control). 
 -----------------------------------------------------------------------------------------------------------------------
 
-> Restrictions on what authenticated users are allowed to do are often
-> not properly enforced. Attackers can exploit these flaws to access
-> unauthorized functionality and/or data, such as access other users’
-> accounts, view sensitive files, modify other users’ data, change
-> access rights, etc.
+Les restrictions sur ce que les utilisateurs authentifiés sont autorisés à faire ne sont souvent pas correctement appliquées. Les attaquants peuvent exploiter ces failles pour accéder à des fonctionnalités et / ou des données non autorisées, telles que l'accès aux comptes d'autres utilisateurs, afficher des fichiers sensibles, modifier les données d'autres utilisateurs, modifier les droits d'accès, etc.
 
-[6. Security Misconfiguration](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A6-Security_Misconfiguration). 
+[6. Mauvaise configuration de la sécurité](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A6-Security_Misconfiguration). 
 -------------------------------------------------------------------------------------------------------------------------------
 
-> Security misconfiguration is the most commonly seen issue. This is
-> commonly a result of insecure default configurations, incomplete or ad
-> hoc configurations, open cloud storage, misconfigured HTTP headers,
-> and verbose error messages containing sensitive information. Not only
-> must all operating systems, frameworks, libraries, and applications be
-> securely configured, but they must be patched/upgraded in a timely
-> fashion.
+Une mauvaise configuration de la sécurité est le problème le plus courant. Cela est généralement le résultat de configurations par défaut non sécurisées, de configurations incomplètes ou ad hoc, d'un stockage en infonuagique ouvert, d'en-têtes HTTP mal configurés et de messages d'erreur détaillés contenant des informations sensibles. Non seulement tous les systèmes d'exploitation, cadriciels, bibliothèques et applications doivent être configurés de manière sécurisée, mais ils doivent être corrigés / mis à niveau en temps opportun.
 
-[7. Cross-Site Scripting XSS](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A7-Cross-Site_Scripting_(XSS)). 
+[7. Script intersite XSS](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A7-Cross-Site_Scripting_(XSS)). 
 -------------------------------------------------------------------------------------------------------------------------------
 
-> XSS flaws occur whenever an application includes untrusted data in a
-> new web page without proper validation or escaping, or updates an
-> existing web page with user-supplied data using a browser API that can
-> create HTML or JavaScript. XSS allows attackers to execute scripts in
-> the victim’s browser which can hijack user sessions, deface web sites,
-> or redirect the user to malicious sites.
+Des failles XSS se produisent chaque fois qu'une application inclut des données non approuvées dans une nouvelle page Web sans validation ou échappement appropriée, ou met à jour une page Web existante avec des données fournies par l'utilisateur à l'aide d'une API de navigateur qui peut créer du HTML ou du JavaScript. XSS permet aux attaquants d'exécuter des scripts dans le navigateur de la victime qui peuvent détourner les sessions des utilisateurs, dégrader des sites Web ou rediriger l'utilisateur vers des sites malveillants.
 
-[8. Insecure Deserialization](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A8-Insecure_Deserialization). 
+[8. Désérialisation non sécurisée](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A8-Insecure_Deserialization). 
 -----------------------------------------------------------------------------------------------------------------------------
 
-> Insecure deserialization often leads to remote code execution. Even if
-> deserialization flaws do not result in remote code execution, they can
-> be used to perform attacks, including replay attacks, injection
-> attacks, and privilege escalation attacks.
+Une désérialisation non sécurisée conduit souvent à l'exécution de code à distance. Même si les failles de désérialisation n'entraînent pas l'exécution de code à distance, elles peuvent être utilisées pour effectuer des attaques, y compris des attaques par réinsertion, des attaques par injection et des attaques par élévation de privilèges.
 
-[9. Using Components with Known Vulnerabilities](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A9-Using_Components_with_Known_Vulnerabilities). 
+[9. Utilisation de composants avec des vulnérabilités connues](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A9-Using_Components_with_Known_Vulnerabilities). 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-> Components, such as libraries, frameworks, and other software modules,
-> run with the same privileges as the application. If a vulnerable
-> component is exploited, such an attack can facilitate serious data
-> loss or server takeover. Applications and APIs using components with
-> known vulnerabilities may undermine application defenses and enable
-> various attacks and impacts.
+Les composants, tels que les bibliothèques, les cadriciels et d'autres modules logiciels, s'exécutent avec les mêmes privilèges que l'application. Si un composant vulnérable est exploité, une telle attaque peut faciliter de graves pertes de données ou une prise de contrôle du serveur. Les applications et les API utilisant des composants avec des vulnérabilités connues peuvent saper les défenses des applications et permettre diverses attaques et impacts.
 
-[10. Insufficient Logging & Monitoring](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A10-Insufficient_Logging%252526Monitoring). 
+[10. Journalisation et surveillance insuffisantes](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A10-Insufficient_Logging%252526Monitoring). 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-> Insufficient logging and monitoring, coupled with missing or
-> ineffective integration with incident response, allows attackers to
-> further attack systems, maintain persistence, pivot to more systems,
-> and tamper, extract, or destroy data. Most breach studies show time to
-> detect a breach is over 200 days, typically detected by external
-> parties rather than internal processes or monitoring.
+Une journalisation et une surveillance insuffisantes, associées à une intégration manquante ou inefficace avec la réponse aux incidents, permettent aux attaquants d'attaquer davantage les systèmes, de maintenir la persistance, de basculer vers plus de systèmes et de falsifier, extraire ou détruire les données. La plupart des études sur les violations montrent que le temps de détection d'une violation est supérieur à 200 jours, généralement détecté par des parties externes plutôt que par des processus ou une surveillance internes.
