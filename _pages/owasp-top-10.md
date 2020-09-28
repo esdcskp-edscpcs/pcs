@@ -9,11 +9,11 @@ permalink: /owasp-top-10/
 [1. Injection](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A1-Injection). 
 -----------------------------------------------------------------------------------------------
 
-> Injection flaws, such as SQL, NoSQL, OS, and LDAP injection, occur
-> when untrusted data is sent to an interpreter as part of a command or
-> query. The attacker’s hostile data can trick the interpreter into
-> executing unintended commands or accessing data without proper
-> authorization.
+Injection flaws, such as SQL, NoSQL, OS, and LDAP injection, occur
+when untrusted data is sent to an interpreter as part of a command or
+query. The attacker’s hostile data can trick the interpreter into
+executing unintended commands or accessing data without proper
+authorization.
 
 [2. Broken Authentication](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A2-Broken_Authentication)
 ----------------------------------------------------------------------------------------------------------------------
