@@ -69,10 +69,10 @@ Par exemple, au moment de la validation des données, c’est bien d’inclure u
 
 Depuis un an environ, on constate un véritable engouement pour la normalisation de la terminologie et de la taxonomie. Dans la présente version du Guide de développement, les principes sont normalisés conformément à ceux des principaux textes de l’industrie; toutefois, un ou deux principes figurant dans la première édition du Guide ont été délaissés. Ce changement a été apporté afin de ne pas confondre le lecteur et de mieux se conformer à un ensemble de principes de base. Les principes qui ont été supprimés sont adéquatement abordés par les contrôles dans le texte.
 
-# Classification des actifs
+## Classification des actifs
 Il est possible de choisir les contrôles uniquement après avoir classifié les données à protéger. Par exemple, le niveau et le nombre des contrôles qui s’appliquent aux systèmes de faible valeur, comme les blogues et les forums, sont différents de ceux qui s’appliquent aux systèmes entourant la comptabilité, les services bancaires de grande valeur et la négociation électronique.
 
-# À propos des attaquants
+## À propos des attaquants
 Au moment de concevoir des contrôles visant à empêcher l’utilisation abusive de l’application, il faut envisager les attaquants les plus probables (en tenant compte de la probabilité et de la perte réelle, de la plus importante à la moins importante):
 * Le mécontentement des membres du personnel ou des développeurs
 * Les attaques « à la dérobée », comme les effets secondaires ou les conséquences directes d’un virus, d’un ver ou d’une attaque de cheval de Troie
@@ -81,7 +81,7 @@ Au moment de concevoir des contrôles visant à empêcher l’utilisation abusiv
 * Les pirates adolescents
 Le terme « pirate informatique » (hacker, en anglais) ne figure pas dans la liste, car les médias utilisent ce terme au sens affectif de manière incorrecte. Toutefois, il est beaucoup trop tard pour récupérer l’utilisation incorrecte du mot « pirate informatique » pour l’employer dans son sens d’origine. Le Guide de développement emploie systématiquement le mot « attaquant » pour désigner une personne ou un objet qui tente activement d’exploiter une fonctionnalité particulière.
 
-# Principaux piliers de la sécurité de l’information
+## Principaux piliers de la sécurité de l’information
 La sécurité de l’information repose sur les piliers suivants:
 * **La confidentialité** – ne permettre l’accès qu’aux données pour lesquelles l’utilisateur a une autorisation
 * **L’intégrité** – veiller à ce que les données ne soient pas altérées par des utilisateurs non autorisés
@@ -89,7 +89,7 @@ La sécurité de l’information repose sur les piliers suivants:
 
 Les principes suivants sont tous reliés à ces trois piliers. Ainsi, au moment de mettre au point un contrôle, il est important de tenir compte de chaque pilier afin de concevoir un contrôle de sécurité efficace.
 
-# Architecture de sécurité
+## Architecture de sécurité
 Les applications dépourvues d’une architecture de sécurité ressemblent à des ponts construits sans avoir procédé à une analyse par éléments finis ni à un essai en soufflerie. Ils ressemblent bel et bien à des ponts, mais ils s’effondreront au premier battement des ailes d’un papillon. À l’instar du domaine de la construction de bâtiments ou de ponts, il est essentiel de veiller à la sécurité des applications au moyen de l’architecture de sécurité.
 
 Les architectes d’applications sont chargés de concevoir des modèles de conception qui assurent une protection efficace contre les risques posés par une utilisation normale et les attaques extrêmes. Pour leur part, les concepteurs de ponts doivent prendre en compte non seulement la circulation automobile et piétonnière, mais aussi les vents cycloniques, les tremblements de terre, les incendies, les incidents de circulation et les inondations. Quant aux concepteurs d’applications, ils doivent tenir compte des événements extrêmes, dont les attaques par force brute ou par injection, et la fraude. Les risques qui pèsent sur les concepteurs d’applications sont bien connus. L’époque de l’excuse « on ne le savait pas » est révolue depuis longtemps. La sécurité est désormais considérée comme une composante essentielle, et non comme une nouvelle dépense excessive ou un élément à délaisser.
@@ -109,60 +109,49 @@ Les meilleures conceptions d’architecture de système et les meilleurs documen
 
 L’architecture de sécurité commence à partir de la modélisation des exigences opérationnelles et se termine au moment de la mise hors service de la dernière copie de l’application. La sécurité est un processus continu, et non un accident ponctuel.
 
-# Principes de sécurité
+## Principes de sécurité
 Les principes de sécurité décrits ci après sont extraits de l’édition antérieure du Guide de développement de l’OWASP. Ils ont été normalisés selon les principes de sécurité énoncés dans Écrire du code sécurisé, un livre excellent rédigé par Howard et LeBlanc.
 
-## Limitez au maximum la surface d’attaque
+### Limitez au maximum la surface d’attaque
 Chaque nouvelle fonctionnalité qui est ajoutée à une application expose l’application à un certain niveau de risque. Le développement sécurisé a pour but d’atténuer le risque global en réduisant la surface d’attaque.
 
 Par exemple, une application Web met en place une aide en ligne avec une fonction de recherche. La fonction de recherche peut être vulnérable aux attaques par injection SQL. Si l’option d’aide est limitée aux utilisateurs autorisés, la probabilité de subir une attaque est réduite. Si la fonction de recherche de l’option d’aide est contrôlée au moyen de routines centralisées de validation des données, la capacité d’effectuer une injection SQL est considérablement réduite. Toutefois, si l’option d’aide est réécrite afin d’éliminer la fonction de recherche (grâce à une meilleure interface utilisateur, par exemple), ce changement élimine quasiment la surface d’attaque, même si l’option d’aide est accessible à l’ensemble des utilisateurs du Web.
 
-## Configurez des paramètres sécurisés par défaut
+### Configurez des paramètres sécurisés par défaut
 Il existe de nombreuses façons d’offrir une expérience « hors des schémas habituels » aux utilisateurs. Toutefois, par défaut, l’expérience devrait être sécurisée, et c’est l’utilisateur qui devrait décider de réduire ou non le niveau de sécurité – s’il est autorisé à le faire.
 
 Par exemple, par défaut, l’expiration et la complexité des mots de passe devraient être activées. Les utilisateurs peuvent être autorisés à désactiver ces deux fonctions pour simplifier l’utilisation de l’application et accroître leur risque.
 
-## Principe de moindre privilège
+### Principe de moindre privilège
 Le principe de moindre privilège recommande d’octroyer aux comptes le minimum de privilèges nécessaires à l’exécution de leurs processus opérationnels. Cela comprend les droits d’utilisateur, les autorisations relatives aux ressources comme les limites de l’unité centrale, la mémoire, le réseau, et les autorisations relatives au système de fichiers.
 
 Par exemple, si un serveur intergiciel n’a besoin que d’un accès au réseau, d’un accès en lecture à un tableau dans une base de données et de la capacité d’écrire dans un registre, il faut uniquement lui accorder ces autorisations. Les intergiciels ne doivent en aucun cas bénéficier de privilèges administratifs.
 
-## Principe de défense en profondeur
+### Principe de défense en profondeur
 Le principe de défense en profondeur implique qu’il est raisonnable d’instaurer un seul contrôle, mais qu’il est préférable de mettre en place plusieurs contrôles qui abordent les risques de différentes façons. Lorsque les contrôles sont utilisés en profondeur, il est très difficile d’exploiter les vulnérabilités graves, réduisant ainsi la probabilité de subir une attaque.
 
 Avec le codage sécurisé, la défense en profondeur peut se manifester par la validation par niveaux, les contrôles centralisés de vérification et le fait de demander aux utilisateurs d’ouvrir une session sur toutes les pages.
 
 Par exemple, il est peu probable qu’une interface administrative défectueuse soit vulnérable à une attaque anonyme si elle bloque correctement l’accès aux réseaux de gestion de la production, vérifie l’autorisation de l’administrateur et journalise tous les accès.
 
-## Échec sécurisé
+### Échec sécurisé
 Il est fréquent que les applications ne soient pas en mesure de traiter les transactions, et ce, pour de nombreux motifs. Cette situation peut être causée par l’échec de la connexion à une base de données ou par l’inexactitude des données saisies par l’utilisateur. La façon dont une application échoue peut déterminer si elle est sécurisée ou non. L’échec ne devrait pas donner de privilèges supplémentaires à l’utilisateur. De plus, il ne devrait pas afficher de données de nature délicate le concernant, comme les requêtes dans les bases de données ou les journaux. Selon ce principe, les applications devraient échouer de façon sécurisée.
 
-## Méfiez vous des services
+### Méfiez vous des services
 De nombreuses organisations utilisent les capacités de traitement de partenaires tiers, qui ont probablement mis en place des politiques et une posture de sécurité différentes des leurs. Il est peu probable que vous puissiez influencer ou contrôler un tiers externe, qu’il s’agisse d’un utilisateur à domicile, ou bien d’un fournisseur ou d’un partenaire important.
 
 Par conséquent, il n’est pas justifié de se fier implicitement aux systèmes gérés à l’externe. Tous les systèmes externes devraient être traités de la même façon.
 
 Par exemple, un fournisseur de programme de fidélisation fournit des données, utilisées par les services bancaires par Internet, qui indiquent le nombre de points de récompense accumulés et la courte liste d’articles pouvant être obtenus en échange des points. Toutefois, les données devraient être vérifiées pour s’assurer qu’il est sécuritaire de les divulguer aux utilisateurs finaux et que les points de récompense sont un nombre positif, et pas très élevé.
 
-## Séparation des tâches
+### Séparation des tâches
 La séparation des tâches est l’une des principales mesures de lutte contre la fraude. Par exemple, un utilisateur qui demande un ordinateur ne doit pas être autorisé à signer cette tâche ni ne devrait recevoir directement l’ordinateur. Cette procédure l’empêche de demander plusieurs ordinateurs et de prétendre qu’ils ne sont jamais arrivés.
 
-Certains rôles sont associés à des niveaux de confiance différents de ceux des utilisateurs normaux. Les administrateurs, par exemple, sont différents des utilisateurs no
-# Paste Your Document In Here
-
-## And a table of contents
-
-will be generated
-
-## On the right
-
-side of this page.
-
-rmaux. En règle générale, les administrateurs ne devraient pas utiliser l’application.
+Certains rôles sont associés à des niveaux de confiance différents de ceux des utilisateurs normaux. Les administrateurs, par exemple, sont différents des utilisateurs normaux. En règle générale, les administrateurs ne devraient pas utiliser l’application.
 
 Par exemple, un administrateur devrait être en mesure d’activer ou de désactiver le système, ou bien d’établir la politique relative aux mots de passe, mais il ne devrait pas être autorisé à ouvrir une session dans la vitrine virtuelle en tant qu’utilisateur jouissant de « super privilèges », notamment pour « acheter » des articles au nom d’autres utilisateurs.
 
-## Évitez la sécurité par l’obscurité
+### Évitez la sécurité par l’obscurité
 
 La sécurité par l’obscurité est un contrôle de sécurité faible; ce contrôle a presque toujours du mal à assurer la sécurité lorsqu’il est utilisé seul. Le fait de garder secrète la conception n’est pas une mauvaise idée en soi. Toutefois, la sécurité des systèmes clés ne devrait pas reposer sur la non divulgation d’informations.
 
@@ -170,14 +159,14 @@ Par exemple, la sécurité d’une application ne devrait pas reposer sur la non
 
 Prenons Linux comme exemple. Le code source de Linux est largement disponible. Or, lorsqu’il est bien sécurisé, Linux est un système d’exploitation robuste, sécuritaire et fiable.
 
-## Recherchez la simplicité en matière de sécurité
+### Recherchez la simplicité en matière de sécurité
 La surface d’attaque et la simplicité vont de pair. Certaines tendances éphémères entourant le génie logiciel privilégient des approches trop complexes au lieu d’opter pour un code relativement simple.
 
 Les développeurs devraient éviter d’utiliser des doubles négatifs et des architectures complexes lorsqu’une approche plus simple serait plus rapide et plus facile.  La mise en place de mécanismes très complexes peut augmenter le risque d’erreurs.
 
 Par exemple, bien qu’il puisse être à la mode d’avoir un mélange de composants Bean de session singleton sur un serveur intergiciel distinct, il est plus sécuritaire et plus rapide d’utiliser des variables globales avec un mécanisme approprié d’exclusion mutuelle pour se protéger contre une situation de compétition.
 
-## Réglez correctement les problèmes de sécurité
+### Réglez correctement les problèmes de sécurité
 Une fois qu’un problème de sécurité a été identifié, il est important d’en faire l’essai pour comprendre la cause fondamentale. Lorsque des modèles de conception sont utilisés, il est probable que le problème de sécurité affecte toutes les bases de codes. C’est pourquoi il est essentiel de trouver la bonne solution sans introduire de régressions.
 
 Par exemple, un utilisateur constate qu’il a accès au solde d’un autre utilisateur en ajustant son témoin. La solution semble relativement simple. Or, puisque le code relatif à la gestion des témoins s’applique à toutes les applications, le fait de modifier une seule application aura une incidence sur toutes les autres applications. La solution doit donc être testée sur toutes les applications touchées.
