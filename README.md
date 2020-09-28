@@ -3,7 +3,7 @@
 Ce dépôt est utilisé comme site principal de notre portail de connaissances pour la version française.
 <https://esdcskp-edscpcs.github.io/pcs/>
 
-La version anglaise se trouve au [https://esdcskp-edscpcs.github.io/skp/](https://esdcskp-edscpcs.github.io/skp/).
+La version anglaise du dépôt se trouve au [https://github.com/esdcskp-edscpcs/skp](https://github.com/esdcskp-edscpcs/skp).
 
 ## Aide
 
