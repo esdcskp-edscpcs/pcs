@@ -13,7 +13,7 @@ permalink: /securite-conception/
 	<p>
 		<ul>
 		<li><a href="#la-sécurité-dès-la-conception-à-edsc"><strong>La sécurité dès la conception à EDSC</strong></a></li>
-		<li><a href="#la-sécurité-dès-la-conception-selon-owasp">La sécurité dès la conception selon OWASP</a></li>
+		<li><a href="#la-sécurité-dès-la-conception-selon-owasp">La sécurité dès la conception selon OWASP</a></li><ul>
 		<li><a href="#classification-des-actifs">Classification des actifs</a></li>
 		<li><a href="#à-propos-des-attaquants">À propos des attaquants</a></li>
 		<li><a href="#principaux-piliers-de-la-sécurité-de-linformation">Principaux piliers de la sécurité de l’information</a></li>
@@ -29,6 +29,8 @@ permalink: /securite-conception/
 		<li><a href="#évitez-la-sécurité-par-lobscurité">Évitez la sécurité par l’obscurité</a></li>
 		<li><a href="#recherchez-la-simplicité-en-matière-de-sécurité">Recherchez la simplicité en matière de sécurité</a></li>
 		<li><a href="#réglez-correctement-les-problèmes-de-sécurité">Réglez correctement les problèmes de sécurité</a></li>
+		</ul>
+		</li>
 		</ul>
 		</li>
 		</ul>
