@@ -19,7 +19,17 @@ cloud:
         <li>En direct/En ligne</li>
         <li>$2995.00</li>
         <li>Préparation pour examen: <a href="https://docs.microsoft.com/fr-fr/learn/certifications/exams/az-204" target="_blank">AZ-204</a></li>
-      </ul>       
+      </ul>  
+  - title: "AWS Cloud Practitioner Essentials (Second Edition)"
+    details: |
+      <img src="../assets/AWS.png">
+      <ul>
+        <li><a href="https://www.aws.training/Details/Curriculum?id=27076" target="_blank">Détails du cours et horaire (en anglais)</a></li>
+        <li>Niveau: Débutant</li>
+        <li>Formation de 6 heures</li>
+        <li>En ligne</li>
+        <li>Gratuit</li>
+      </ul>        
 secureapplications:
   - title: "DevSecOps Foundation (DSOF)"
     details: |
