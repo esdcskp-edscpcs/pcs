@@ -1,36 +1,36 @@
 cloud:
-  - title: "SEC540 - Cloud Security and DevOps Automation (en anglais seulement)"
+  - title: "SEC540 - Cloud Security and DevOps Automation"
     details: |
       <img src="../assets/SANS.PNG">
       <ul>
-        <li><a href="https://www.sans.org/course/secure-devops-cloud-application-security" target="_blank">Détails du cours et horaire</a></li>
+        <li><a href="https://www.sans.org/course/secure-devops-cloud-application-security" target="_blank">Détails du cours et horaire (en anglais)</a></li>
         <li>Niveau: Intermédiaire</li>
         <li>Formation de 5 jours</li>
         <li>En direct/En ligne</li>
         <li>$6600.00 USD</li>
       </ul> 
 secureapplications:
-  - title: "DevSecOps Foundation (DSOF) (en anglais seulement)"
+  - title: "DevSecOps Foundation (DSOF)"
     details: |
       <img src="../assets/Learning-Tree.PNG">
       <ul>
-        <li><a href="https://www.learningtree.ca/courses/3687/devsecops-engineering-dsof/" target="_blank">Détails du cours et horaire</a></li>
+        <li><a href="https://www.learningtree.ca/courses/3687/devsecops-engineering-dsof/" target="_blank">Détails du cours et horaire (en anglais)</a></li>
         <li>Niveau: Intermédiaire</li>
         <li>Sur notre site</li>
         <li>Prix non disponible</li>
       </ul>
-  - title: "Full Stack Cybersecurity Training for Web Apps and Services (en anglais seulement)"
+  - title: "Full Stack Cybersecurity Training for Web Apps and Services"
     details: |
       <img src="../assets/Learning-Tree.PNG">
       <ul>
-        <li><a href="https://www.learningtree.ca/courses/940/full-stack-cybersecurity-training-for-web-apps-and-services/" target="_blank">Détails du cours et horaire</a></li>
+        <li><a href="https://www.learningtree.ca/courses/940/full-stack-cybersecurity-training-for-web-apps-and-services/" target="_blank">Détails du cours et horaire (en anglais)</a></li>
         <li>Niveau: Intermédiaire</li>
         <li>Formation de 4 jours</li>
         <li>En classe/En direct/En ligne/Sur notre site</li>
         <li>Portable requis</li>
         <li>$2890.00</li>
       </ul>
-  - title: "335 - La cybersécurité dans le GC pour les équipes de développement de logiciels (cours généralement offert en anglais)"
+  - title: "335 - La cybersécurité dans le GC pour les équipes de développement de logiciels"
     details: |
       <img src="../assets/Cyber-Centre-Learning-Hub-FR.PNG">
       <ul>
@@ -40,7 +40,7 @@ secureapplications:
         <li>En classe/Sur notre site</li>
         <li>$500.00 (Prix de groupe disponible)</li>
       </ul>
-  - title: "910 - Formation concentrée sur la gestion des risques liés à la sécurité des TI (cours généralement offert en anglais)"
+  - title: "910 - Formation concentrée sur la gestion des risques liés à la sécurité des TI"
     details: |
       <img src="../assets/Cyber-Centre-Learning-Hub-FR.PNG">
       <ul>
@@ -50,21 +50,21 @@ secureapplications:
         <li>En classe/Sur notre site</li>
         <li>$2000.00 (Prix de groupe disponible)</li>
       </ul>      
-  - title: "Certified Secure Software Lifecycle Professional (CSSLP) Training (en anglais seulement)"
+  - title: "Certified Secure Software Lifecycle Professional (CSSLP) Training"
     details: |
       <img src="../assets/Learning-Tree.PNG">
       <ul>
-        <li><a href="https://www.learningtree.ca/courses/2059/csslp-certification-csslp-training/" target="_blank">Détails du cours et horaire</a></li>
+        <li><a href="https://www.learningtree.ca/courses/2059/csslp-certification-csslp-training/" target="_blank">Détails du cours et horaire (en anglais)</a></li>
         <li>Niveau: Avancé</li>
         <li>Formation de 5 jours</li>
         <li>En classe/En direct/En ligne/Sur notre site</li>
         <li>$4790.00 (Prix de groupe disponible)</li>
       </ul>     
-  - title: "Certified Secure Web Applications Engineer - Ultimate C)SWAE Self Study Package (en anglais seulement)"
+  - title: "Certified Secure Web Applications Engineer - Ultimate C)SWAE Self Study Package"
     details: |
       <img src="../assets/Ultimate-IT-Courses.png">
       <ul>
-        <li><a href="https://ultimateitcourses.ca/course/technical/cybersecurity/ultimate-cswae-self-study-package/" target="_blank">Détails du cours et horaire</a></li>
+        <li><a href="https://ultimateitcourses.ca/course/technical/cybersecurity/ultimate-cswae-self-study-package/" target="_blank">Détails du cours et horaire (en anglais)</a></li>
         <li>Niveau: Intermédiaire</li>
         <li>Formule d'auto-apprentissage</li>
         <li>$1200.00</li>
