@@ -7,7 +7,7 @@ permalink: /formation-securite-app/
 <p>Une liste de cours sur la sécurité des applications. Des prix de groupe sont disponibles pour certains cours.</p>
 <p>
 	<ul class="list-unstyled">
-	{% assign list_of_courses = site.data.app-security-training.training | sort_natural: "title" %}
+	{% assign list_of_courses = site.data.formation-securite-app.training | sort_natural: "title" %}
 	{% for course in list_of_courses %}
 	  <li>
 	  <details>
