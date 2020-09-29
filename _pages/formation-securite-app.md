@@ -12,7 +12,7 @@ permalink: /formation-securite-app/
 	{% for course in list_of_courses %}
 	  <li>
 	  <details>
-		<summary>Secure Software
+		<summary>
 		  <h3 id="{{ course.title | slugify }}">{{ course.title }}</h3>
 		</summary>
 		{{ course.details }}
