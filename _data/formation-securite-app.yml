@@ -1,5 +1,16 @@
-training:
-  - title: "Learning Tree: DevSecOps Foundation (DSOF) (en anglais seulement)"
+cloud:
+  - title: "SEC540 - Cloud Security and DevOps Automation (en anglais seulement)"
+    details: |
+      <img src="../assets/SANS.PNG">
+      <ul>
+        <li><a href="https://www.sans.org/course/secure-devops-cloud-application-security" target="_blank">Détails du cours et horaire</a></li>
+        <li>Niveau: Intermédiaire</li>
+        <li>Formation de 5 jours</li>
+        <li>En direct/En ligne</li>
+        <li>$6600.00 USD</li>
+      </ul> 
+secureapplications:
+  - title: "DevSecOps Foundation (DSOF) (en anglais seulement)"
     details: |
       <img src="../assets/Learning-Tree.PNG">
       <ul>
@@ -8,7 +19,7 @@ training:
         <li>Sur notre site</li>
         <li>Prix non disponible</li>
       </ul>
-  - title: "Learning Tree: Full Stack Cybersecurity Training for Web Apps and Services (en anglais seulement)"
+  - title: "Full Stack Cybersecurity Training for Web Apps and Services (en anglais seulement)"
     details: |
       <img src="../assets/Learning-Tree.PNG">
       <ul>
@@ -19,9 +30,9 @@ training:
         <li>Portable requis</li>
         <li>$2890.00</li>
       </ul>
-  - title: "Centre canadien pour la cybersécurité: 335 - La cybersécurité dans le GC pour les équipes de développement de logiciels (cours généralement offert en anglais)"
+  - title: "335 - La cybersécurité dans le GC pour les équipes de développement de logiciels (cours généralement offert en anglais)"
     details: |
-      <img src="../assets/Cyber-Centre-Learning-Hub.PNG">
+      <img src="../assets/Cyber-Centre-Learning-Hub-FR.PNG">
       <ul>
         <li><a href="https://lih-cai.cse-cst.gc.ca/enrol/index.php?id=80&lang=fr_ca" target="_blank">Détails du cours et horaire</a></li>
         <li>Niveau: Débutant</li>
@@ -29,9 +40,9 @@ training:
         <li>En classe/Sur notre site</li>
         <li>$500.00 (Prix de groupe disponible)</li>
       </ul>
-  - title: "Centre canadien pour la cybersécurité: 910 - Formation concentrée sur la gestion des risques liés à la sécurité des TI (cours généralement offert en anglais)"
+  - title: "910 - Formation concentrée sur la gestion des risques liés à la sécurité des TI (cours généralement offert en anglais)"
     details: |
-      <img src="../assets/Cyber-Centre-Learning-Hub.PNG">
+      <img src="../assets/Cyber-Centre-Learning-Hub-FR.PNG">
       <ul>
         <li><a href="https://lih-cai.cse-cst.gc.ca/enrol/index.php?id=124&lang=fr_ca" target="_blank">Détails du cours et horaire</a></li>
         <li>Niveau: Débutant</li>
@@ -39,7 +50,7 @@ training:
         <li>En classe/Sur notre site</li>
         <li>$2000.00 (Prix de groupe disponible)</li>
       </ul>      
-  - title: "Learning Tree: Certified Secure Software Lifecycle Professional (CSSLP) Training (en anglais seulement)"
+  - title: "Certified Secure Software Lifecycle Professional (CSSLP) Training (en anglais seulement)"
     details: |
       <img src="../assets/Learning-Tree.PNG">
       <ul>
@@ -49,17 +60,7 @@ training:
         <li>En classe/En direct/En ligne/Sur notre site</li>
         <li>$4790.00 (Prix de groupe disponible)</li>
       </ul>     
-  - title: "SANS: SEC540 - Cloud Security and DevOps Automation (en anglais seulement)"
-    details: |
-      <img src="../assets/SANS.PNG">
-      <ul>
-        <li><a href="https://www.sans.org/course/secure-devops-cloud-application-security" target="_blank">Détails du cours et horaire</a></li>
-        <li>Niveau: Intermédiaire</li>
-        <li>Formation de 5 jours</li>
-        <li>En direct/En ligne</li>
-        <li>$6600.00 USD</li>
-      </ul> 
-  - title: "Ultimate IT Courses: Certified Secure Web Applications Engineer - Ultimate C)SWAE Self Study Package (en anglais seulement)"
+  - title: "Certified Secure Web Applications Engineer - Ultimate C)SWAE Self Study Package (en anglais seulement)"
     details: |
       <img src="../assets/Ultimate-IT-Courses.png">
       <ul>
