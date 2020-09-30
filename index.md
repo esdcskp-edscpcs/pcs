@@ -3,6 +3,10 @@ layout: default
 title: Bienvenue au Portail des connaissances sur la sécurité d'EDSC!
 ---
 
+**Note importante concernant la sécurité:** Ce site a été créé via la plateforme Github et est donc hébergé à l'extérieur du ministère. Assurez-vous de ne jamais fournir d'informations personnelles et/ou de nature sensibles sur ce site ainsi que dans toute section vous permettant une rétroaction.
+
+<hr />
+
 Ce portail de connaissances fournit un certain nombre de ressources utiles aux développeurs et aux champions de la sécurité afin de les aider à mettre en œuvre les meilleures pratiques de sécurité tout en développant leur produit, ce qui aboutirait à un produit **sécurisé dès la conception**.
 
 ## La sécurité dès la conception?
