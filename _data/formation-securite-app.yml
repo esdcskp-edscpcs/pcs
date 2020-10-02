@@ -89,4 +89,13 @@ secureapplications:
         <li>Niveau: Intermédiaire</li>
         <li>Formule d'auto-apprentissage</li>
         <li>$1200.00</li>
-      </ul>        
+      </ul>
+  - title: "Bases de la sécurité de la modélisation des menaces"
+    details: |
+      <img src="../assets/Microsoft.jpg">
+      <ul>
+        <li><a href="https://docs.microsoft.com/fr-ca/learn/paths/tm-threat-modeling-fundamentals/" target="_blank">Détails du cours et horaire</a></li>
+        <li>Niveau: Débutant</li>
+        <li>Formule d'auto-apprentissage</li>
+        <li>Gratuit</li>
+      </ul>       
