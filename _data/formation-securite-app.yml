@@ -98,4 +98,20 @@ secureapplications:
         <li>Niveau: Débutant</li>
         <li>Formule d'auto-apprentissage</li>
         <li>Gratuit</li>
+      </ul>
+  - title: "Parcours d'apprentissage Sonatype"
+    details: |
+      <img src="../assets/Sonatype.PNG">
+      <ul>
+        <li><a href="https://learn.sonatype.com/learning-paths" target="_blank">Course Details and Schedule (en anglais)</a></li>
+        <li>Niveau: Débutant</li>
+        <li>Formule d'auto-apprentissage</li>
+        <li>Parcours disponibles:
+            <ul>
+                <li><a href="https://learn.sonatype.com/learning-paths/increase-developer-productivity/">Increase Developer Productivity</a></li>
+                <li><a href="https://learn.sonatype.com/learning-paths/reduce-oss-risks/">Reduce OSS Risks</a></li>
+                <li><a href="https://learn.sonatype.com/learning-paths/shift-left-secure-coding/">Shift Left: Secure Coding Practices</a></li>
+            </ul>
+        </li>
+        <li>Gratuit</li>
       </ul>       
