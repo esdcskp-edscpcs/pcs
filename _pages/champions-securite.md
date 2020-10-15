@@ -187,12 +187,12 @@ Vous pouvez faire parvenir une demande directement via MS Teams dans la chaîne 
     <dl>
       <dt class="mrgn-tp-0"><strong>Nominé par:</strong></dt> 
       {% for nominator in product.nominatedby %}
-         <dd class="label label-primary"><a href="mailto:{{ nominator.name }}">{{nominator.name}}</a></dd>
+         <dd class="label label-primary"><a href="mailto:{{ nominator.email }}">{{nominator.name}}</a></dd>
       {% endfor %}
     {% endif %}
       <dt><strong>Nominés:</strong></dt>
       {% for nominee in product.nominees %}
-        <dd class="label label-default" id="{{ nominee.name | slugify }}"><a href="mailto:{{ nominee.name }}">{{ nominee.name }}</a>
+        <dd class="label label-default" id="{{ nominee.name | slugify }}"><a href="mailto:{{ nominee.email }}">{{ nominee.name }}</a>
           {% if nominee.phone %}
             <span>{{nominee.phone}}</span>
           {% endif %}
