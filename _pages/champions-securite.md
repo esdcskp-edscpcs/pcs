@@ -191,7 +191,7 @@ Vous pouvez faire parvenir une demande directement via MS Teams dans la chaîne 
       <p>
 		<span><strong>Nominé par:</strong></span> 
         {% for nominator in product.nominatedby %}
-          <span class="label label-primary"><a href="mailto:{{ nominator.name }}">{{nominator.name}}</a></span>
+          <span class="label label-primary"><a href="mailto:{{ nominator.email }}">{{nominator.name}}</a></span>
         {% endfor %}
       </p>
     {% endif %}
@@ -201,7 +201,7 @@ Vous pouvez faire parvenir une demande directement via MS Teams dans la chaîne 
 	<ul class="list-group list-inline row mrgn-lft-0 mrgn-rght-0">
       {% for nominee in product.nominees %}
         <li class="list-group-item col-md-4 brdr-rds-0">
-          <h3 class="list-group-item-heading" id="{{ nominee.name | slugify }}"><a href="mailto:{{ nominee.name }}">{{ nominee.name }}</a></h3>
+          <h3 class="list-group-item-heading" id="{{ nominee.name | slugify }}"><a href="mailto:{{ nominee.email }}">{{ nominee.name }}</a></h3>
           <ul class="list-group-item-text list-inline">
             {% if nominee.phone %}
               <li>{{nominee.phone}}</li>
