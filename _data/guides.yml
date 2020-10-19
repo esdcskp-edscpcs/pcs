@@ -1,0 +1,9 @@
+listofguides:
+  - title: "Créer des certificats auto-signés sur Windows 10"
+    description: |
+      McAfee analyse le contenu du code et se déclenche lorsqu'il devient nerveux à propos de certains comportements (comme jouer dans le registre ou appeler d'autres programmes, etc.). Il peut bloquer les programmes internes ainsi que les logiciels standard. La solution la plus simple consiste à reconnaître la source comme étant fiable. Par exemple, si Adobe émet un logiciel, McAfee lui fera confiance car nous faisons confiance à sa réputation (même si une partie du code est suspecte). Ce guide vous montrera comment créer des certificats auto-signés afin de résoudre ce problème.
+    location: "../guides/creer-cert-auto-signes-win10"
+  - title: "Intégration de Microfocus Fortify SCA & WI avec Jenkins"
+    description: |      
+      Guide de configuration et de mise en œuvre de Microfocus Fortify Source Code Analyzer (SCA) et Web Inspect (WI) dans un pipeline CI / CD à l'aide de Jenkins.
+    location: "../guides/integration-de-fortify-sca-wi-avec-jenkins"      
