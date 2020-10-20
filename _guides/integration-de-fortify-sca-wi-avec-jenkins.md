@@ -10,7 +10,7 @@ date: 2020-03-09
 
 ## Installation de Fortify SCA
 
-1. Les lignes directrices concernant l'installation sont disponibles dans le document "ESDC Fortify SCAN 18.20 Install Guide" (en anglais)
+1. Les lignes directrices concernant l'installation sont disponibles dans le document ["ESDC Fortify SCAN 18.20 Install Guide"](SCA_Install_18.20.pdf) (en anglais)
 2. L'agent doit être réinitialisé
 
 ## Installation du module Fortify Maven (uniquement pour les applications Java)
