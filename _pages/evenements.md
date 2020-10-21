@@ -4,10 +4,10 @@ layout: no-banner
 permalink: /evenements/
 ---
 
-{% if site.data.events.next %}
+{% if site.data.evenements.next %}
 <div class="well">
     <h2 id="next-event">Événements qui pourraient vous intéresser</h2>
-{% for event in site.data.events.next %}
+{% for event in site.data.evenements.next %}
     <h3>{{ event.topic }}</h3>
 	<p><strong>{{ event.date }}</strong><br />
 	Présentateur: {{ event.presenter }}</p>
