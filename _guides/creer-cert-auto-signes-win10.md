@@ -10,13 +10,15 @@ La solution recommandée consiste à émettre des certificats de "signature de c
 
 ## Instructions pour créer des certificats auto-signés
 
+### Applications Web
+
 1. Ouvrez une fenêtre PowerShell **en tant qu'Administrateur** et entrez la commande suivante: 
 
    `New-SelfSignedCertificate -CertStoreLocation Cert:\LocalMachine\My -DnsName "mysite.local" -FriendlyName "MySiteCert" -NotAfter (Get-Date).AddYears(10)`
 
    Cela créera un certificat auto-signé spécifique pour mysite.local qui est valable 10 ans. Vous pouvez modifier le nombre d'années en modifiant la valeur dans la fonction AddYears.
    
-   ![Créer un nouveau certificat à l'aide de PowerShell](../assets/creer-cert-auto-signes/instruction-1.PNG)
+   ![Créer un nouveau certificat à l'aide de PowerShell](../assets/creer-cert-auto-signes/webapp-create-cert-powershell.PNG)
    
 2. Une fois le certificat créé, vous devez le copier dans le magasin des autorités de certification racines de confiance.
 
@@ -24,7 +26,7 @@ La solution recommandée consiste à émettre des certificats de "signature de c
 
 4. Dans le panneau de gauche, accédez à Certificats - Ordinateur local → Personnel → Certificats
    
-   ![Afficher le magasin de certificats](../assets/creer-cert-auto-signes/instruction-2.PNG)
+   ![Afficher le magasin de certificats](../assets/creer-cert-auto-signes/webapp-display-cert-store.PNG)
 	   
 5. Localisez le certificat créé (dans cet exemple, regardez sous la colonne Émis à "mysite.local" ou sous la colonne Nom convivial "MySiteCert").
    
@@ -34,7 +36,33 @@ La solution recommandée consiste à émettre des certificats de "signature de c
    
 8. Sélectionnez "Copier ici" dans le menu contextuel.
 
-## Exporter un certificat
+### Applications de bureau
+
+1. Ouvrez une fenêtre PowerShell en tant qu'**administrateur** et entrez la commande suivante (modifiez les paramètres CN, FriendlyName et CertStoreLocation en conséquence):
+
+   `New-SelfSignedCertificate -Type Custom -Subject "CN=ESDC Software, O=ESDC, C=CA" -KeyUsage DigitalSignature -FriendlyName "ESDC Test Certificate" -CertStoreLocation "Cert:\CurrentUser\My" -TextExtension @("2.5.29.37={text}1.3.6.1.5.5.7.3.3", "2.5.29.19={text}")`
+
+   Notez les détails suivants sur certains des paramètres:
+
+   - **KeyUsage**: Ce paramètre définit ce à quoi le certificat peut être utilisé. Pour un certificat auto-signé, ce paramètre doit être défini sur **DigitalSignature**.
+   - **TextExtension**: ce paramètre inclut les paramètres pour les extensions suivantes:
+      - "Extended Key Usage" (EKU): cette extension indique des fins supplémentaires pour lesquelles la clé publique certifiée peut être utilisée. Pour un certificat d'auto-signature, ce paramètre doit inclure la chaîne d'extension **"2.5.29.37={text}1.3.6.1.5.5.7.3.3"**, qui indique que le certificat doit être utilisé pour la signature de code.
+      - "Basic Constraints": cette extension indique si le certificat est ou non une autorité de certification (CA). Pour un certificat à signature automatique, ce paramètre doit inclure la chaîne d'extension **"2.5.29.19={text}"**, qui indique que le certificat est une entité finale (et non une autorité de certification).
+
+   Après avoir exécuté cette commande, le certificat sera ajouté au magasin de certificats local, comme spécifié dans le paramètre "-CertStoreLocation". Le résultat de la commande produira également l'empreinte numérique du certificat.
+   
+   ![Show certificate thumbprint](../assets/creer-cert-auto-signes/desktop-show-certificate-thumbprint.PNG)   
+
+2. Vous pouvez afficher votre certificat dans une fenêtre PowerShell à l'aide des commandes suivantes:
+
+   `Set-Location Cert:\CurrentUser\My`
+   `Get-ChildItem | Format-Table Subject, FriendlyName, Thumbprint`
+   
+    Cela affichera tous les certificats dans votre magasin local.
+	
+   ![Show Local Store](../assets/creer-cert-auto-signes/desktop-show-local-store.PNG)
+	
+## Exporter un certificat (Pour les applications de bureau)
 
 Pour exporter le certificat du magasin local vers un fichier PFX (Personal Information Exchange), utilisez la commande Export-PfxCertificate.
 
@@ -42,15 +70,16 @@ Lorsque vous utilisez **Export-PfxCertificate**, vous devez soit créer et utili
 
 ### Utilisation du mot de passe
 
-   `$password = ConvertTo-SecureString -String <Your Password> -Force -AsPlainText`
+   Mettez à jour **Votre mot de passe**, **FilePath** et **Thumbprint** en conséquence.
 
-   `Export-PfxCertificate -cert "Cert:\CurrentUser\My\<Certificate Thumbprint>" -FilePath <FilePath>.pfx -Password $password`
+   `$password = ConvertTo-SecureString -String <Votre mot de passe> -Force -AsPlainText`
+   `Get-ChildItem –Path cert:\CurrentUser\my\<9312C9A6C9EC840697B2B3FA7E6F7C3A23085F10> | Export-PfxCertificate -FilePath <C:\ESDC-test.pfx> -Password $password`
 
-### Utilisation avec ProtectTo
-   
-   `Export-PfxCertificate -cert Cert:\CurrentUser\My\<Certificate Thumbprint> -FilePath <FilePath>.pfx -ProtectTo <Nom d'utilisateur ou nom de groupe>`
+   ![Export Certificate](../assets/creer-cert-auto-signes/desktop-export-certificate.PNG)
 
    Après avoir créé et exporté votre certificat, vous êtes prêt à signer votre package d'application avec **SignTool**. Pour l'étape suivante du processus d'empaquetage manuel, voir [Signer un package d'application à l'aide de SignTool](https://docs.microsoft.com/fr-ca/windows/msix/package/sign-app-package-using-signtool). 
    
-> Référence: [https://docs.microsoft.com/fr-ca/windows/msix/package/create-certificate-package-signing](https://docs.microsoft.com/fr-ca/windows/msix/package/create-certificate-package-signing)
+## Considérations de sécurité
+
+En ajoutant un certificat aux [magasins de certificats de la machine locale](https://docs.microsoft.com/fr-ca/windows-hardware/drivers/install/local-machine-and-current-user-certificate-stores), vous affectez la confiance de certificat de tous les utilisateurs de l'ordinateur. Il est recommandé de supprimer ces certificats lorsqu'ils ne sont plus nécessaires pour éviter qu'ils ne soient utilisés pour compromettre la confiance du système.
    
