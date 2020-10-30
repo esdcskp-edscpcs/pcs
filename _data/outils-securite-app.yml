@@ -28,7 +28,7 @@ standard:
       <p>Une solution ACL permet une gestion sécurisée des risques liés à l'utilisation du code source ouvert tout au long de la chaîne d'approvisionnement du logiciel, permettant à l'équipe de sécurité et aux développeurs de créer une nomenclature précise pour toutes vos applications, de découvrir et de suivre toutes les sources ouvertes, définir et appliquer des politiques, permettre une surveillance proactive et continue et intégrez de manière transparente l'analyse de code source ouvert dans l'environnement de compilation.</p>    
     tools:
       - name: Sonatype Nexus Lifecycle
-        availability: "Infonuagique"
+        availability: "Interne/Infonuagique"
         details: "https://www.sonatype.com/nexus/lifecycle"
   - focus: "Sécurité des conteneurs"
     definition: |     
