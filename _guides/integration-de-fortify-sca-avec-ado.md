@@ -9,7 +9,7 @@ date: 2020-11-06
 1. Un jeton d'authentification de "Software Security Center"
 2. Un projet "Software Security Center"
 
-: warning: Les trois conditions préalables sont nécessaires. S'il vous en manque une, vous devez contacter la sécurité informatique d'EDSC.
+:warning: Les trois conditions préalables sont nécessaires. S'il vous en manque une, vous devez contacter la sécurité informatique d'EDSC.
 
 
 ## Description
@@ -38,7 +38,7 @@ Un exemple de l'étape 3 est disponible dans la section exemple
 3. Scan: analyse du code traduit et production de rapports de vulnérabilité de sécurité
 4. Téléchargement: téléchargement des résultats vers le "Software Security Center"
 
-: warning: La manière dont vous effectuez l'analyse dépend du langage de programmation de l'application. Pour plus d'informations sur ces étapes, vous pouvez consulter le site officiel [Documentation SCA](https://www.microfocus.com/documentation/fortify-static-code-analyzer-and-tools/1810/SCA_Guide_18.10.pdf) 
+:warning: La manière dont vous effectuez l'analyse dépend du langage de programmation de l'application. Pour plus d'informations sur ces étapes, vous pouvez consulter le site officiel [Documentation SCA](https://www.microfocus.com/documentation/fortify-static-code-analyzer-and-tools/1810/SCA_Guide_18.10.pdf) 
 
 
 ## Variables configurables
@@ -55,7 +55,7 @@ SCA_BIN | le chemin vers le binaire SCA
 
 Installation de SCA sur l'agent à partir d'artefacts
 
-: warning: Cela présuppose que vous disposez d'une archive de type TAR de SCA en tant qu'artefact disponible dans votre projet Azure Devops. 
+:warning: Cela présuppose que vous disposez d'une archive de type TAR de SCA en tant qu'artefact disponible dans votre projet Azure Devops. 
 
 ````
 - stage : SCA
