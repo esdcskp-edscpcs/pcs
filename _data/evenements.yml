@@ -1,4 +1,10 @@
 next:
+  - date: "12 novembre 2020 de 13:00 à 14:00"
+    topic: "Getting Developers to Upgrade Vulnerable Components With Black Duck & ThreadFix (en anglais)"
+    presenter: "Gautam Baghel, Synopsys & Dan Cornell, ThreadFix"
+    overview: |
+      ThreadFix est une solution de premier plan pour gérer les données de vulnérabilité de vos applications à travers des tests statiques, dynamiques et interactifs et des logiciels open source. Black Duck®, un outil d'analyse de composition logicielle de premier plan, fournit un aperçu des vulnérabilités de votre portefeuille d'applications open source. Ensemble, Black Duck et ThreadFix créent une vue unifiée de votre programme de sécurité d'application. Dans ce webinaire, découvrez comment ThreadFix peut fournir des conseils de correction précieux pour les vulnérabilités open source découvertes par Black Duck, ainsi que des tests statiques et dynamiques. ThreadFix envoie automatiquement toutes ces informations à vos développeurs, afin qu'ils puissent passer leur temps à résoudre les problèmes, sans chercher à savoir comment.
+    link: https://www.brighttalk.com/webcast/13983/450181?utm_source=threadFix&utm_medium=referral&utm_campaign=ThreadFix%20Webinar
   - date: "19 novembre 2020 de 13:00 à 16:30"
     topic: "AWS Discovery days: Complimentary 3 hour AWS Training Course (en anglais)"
     presenter: Mike Garcia
