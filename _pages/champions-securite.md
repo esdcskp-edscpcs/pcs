@@ -4,13 +4,9 @@ layout: no-banner
 permalink: /champions-securite/
 ---
 
-<ul class="list-unstyled">
-  <li>
-  <details>
-    <summary>
-		<h1 class="h3">Table of Contents</h1>
-	</summary>
-	<p>
+<section class="panel panel-default">
+	<header class="panel-heading"><h2 class="panel-title">Table des matières</h2></header>
+	<div class="panel-body">
 		<ul>
 			<li><a href="#aperçu-des-champions-de-la-sécurité">Aperçu des champions de la sécurité</a>
 				<ul>
@@ -44,10 +40,8 @@ permalink: /champions-securite/
 			</li>
 			<li><a href="#nos-champions-de-la-sécurité">Nos Champions de la Sécurité</a></li>
 		</ul>
-	</p>
-  </details>
-  </li>
-</ul>
+	</div>
+</section>
 
 ## Aperçu des champions de la sécurité
 
