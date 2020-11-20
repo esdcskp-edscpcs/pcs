@@ -4,13 +4,9 @@ layout: default
 permalink: /securite-conception/
 ---
 
-<ul class="list-unstyled">
-  <li>
-  <details>
-    <summary>
-		<h1 class="h3">Table des matières</h1>
-	</summary>
-	<p>
+<section class="panel panel-default">
+	<header class="panel-heading"><h2 class="panel-title">Table des matières</h2></header>
+	<div class="panel-body">
 		<ul>
 		<li><a href="#la-sécurité-dès-la-conception-à-edsc">La sécurité dès la conception à EDSC</a></li>
 		<li><a href="#la-sécurité-dès-la-conception-selon-owasp">La sécurité dès la conception selon OWASP</a><ul>
@@ -34,10 +30,8 @@ permalink: /securite-conception/
 		</ul>
 		</li>
 		</ul>
-	</p>
-  </details>
-  </li>
-</ul>	
+	</div>
+</section>		
 
 # La sécurité dès la conception à EDSC 
 *La sécurité dès la conception est une méthode de développement des logiciels et du matériel informatique qui vise à mettre au point des systèmes qui sont dépourvus de toute vulnérabilité et qui résistent aux attaques informatiques dans la mesure du possible. Ce processus intègre la sécurité dans le cycle de vie de développement des systèmes.*
