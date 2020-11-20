@@ -61,4 +61,25 @@ champions:
         email: patrick.martin@hrsdc-rhdcc.gc.ca
     nominees:
       - name: "Tripp, Daniel D [NC]"
-        email: daniel.tripp@hrsdc-rhdcc.gc.ca          
+        email: daniel.tripp@hrsdc-rhdcc.gc.ca  
+  - name: "Guichet-emploi"
+    nominatedby:
+      - name: "McFarland, Al AR [NC]"
+        email: al.mcfarland@hrsdc-rhdcc.gc.ca
+    nominees:
+      - name: "Girard, Stephane S [NC]"
+        email: stephane.girard@hrsdc-rhdcc.gc.ca      
+  - name: "Travailleurs étrangers temporaires (TET) & Classification nationale des professions (CNP)"
+    nominatedby:
+      - name: "McFarland, Al AR [NC]"
+        email: al.mcfarland@hrsdc-rhdcc.gc.ca
+    nominees:
+      - name: "MacDonald, Glenn G [NC]"
+        email: glenn.macdonald@hrsdc-rhdcc.gc.ca 
+  - name: "Solutions pour les partenaires"
+    nominatedby:
+      - name: "McFarland, Al AR [NC]"
+        email: al.mcfarland@hrsdc-rhdcc.gc.ca
+    nominees:
+      - name: "Milot, Pierre P [NC]"
+        email: pierre.milot@hrsdc-rhdcc.gc.ca         
