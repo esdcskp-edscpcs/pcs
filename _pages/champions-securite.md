@@ -194,7 +194,7 @@ Vous pouvez faire parvenir une demande directement via MS Teams dans la chaîne 
 		</tr>
 	</thead>
 	<tbody>
-	{% for champion in site.data.security-champions.champions %}
+	{% for champion in site.data.champions-securite.champions %}
 		<tr>
 			<td>
 				{{ champion.name }}
