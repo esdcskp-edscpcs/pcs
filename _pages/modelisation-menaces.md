@@ -4,22 +4,16 @@ layout: default
 permalink: /modelisation-menaces/
 ---
 
-<ul class="list-unstyled">
-  <li>
-  <details>
-    <summary>
-		<h1 class="h3">Table des matières</h1>
-	</summary>
-	<p>
+<section class="panel panel-default">
+	<header class="panel-heading"><h2 class="panel-title">Table des matières</h2></header>
+	<div class="panel-body">
 		<ul>
 		<li><a href="#la-modélisation-des-menaces-expliquée">La modélisation des menaces expliquée</a></li>
 		<li><a href="#aide-mémoire-sur-la-modélisation-des-menaces-dowasp">Aide-mémoire sur la modélisation des menaces d’OWASP</a></li>
 		<li><a href="#owasp-threat-dragon">OWASP Threat Dragon</a></li>
 		</ul>
-	</p>
-  </details>
-  </li>
-</ul>	
+	</div>
+</section>	
 
 # La modélisation des menaces expliquée
 
