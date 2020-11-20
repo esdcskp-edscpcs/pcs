@@ -213,4 +213,3 @@ Vous pouvez faire parvenir une demande directement via MS Teams dans la chaîne 
 	{% endfor %}
 	</tbody>
 </table>
-</ul>
