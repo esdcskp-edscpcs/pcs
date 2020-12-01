@@ -91,4 +91,18 @@ champions:
       - name: "Northrup, Jon G [NC]"
         email: jon.northrup@hrsdc-rhdcc.gc.ca        
       - name: "Laus, Ranka R [NC]"
-        email: ranka.laus@hrsdc-rhdcc.gc.ca          
+        email: ranka.laus@hrsdc-rhdcc.gc.ca     
+  - name: "Solutions de la TI/GI"
+    nominatedby:
+      - name: "Tremblay, Robert R [NC]"
+        email: robert.tremblay@hrsdc-rhdcc.gc.ca
+    nominees:
+      - name: "Bachmier, Frank F [NC]"
+        email: frank.bachmier@hrsdc-rhdcc.gc.ca
+  - name: "Plateforme Sharepoint & Opérations"
+    nominatedby:
+      - name: "Ballem, Kerri KL [NC]"
+        email: kerri.ballem@hrsdc-rhdcc.gc.ca
+    nominees:
+      - name: "Doney, Philip P [NC]"
+        email: philip.doney@hrsdc-rhdcc.gc.ca        
