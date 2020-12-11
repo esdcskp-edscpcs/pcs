@@ -105,4 +105,17 @@ champions:
         email: kerri.ballem@hrsdc-rhdcc.gc.ca
     nominees:
       - name: "Doney, Philip P [NC]"
-        email: philip.doney@hrsdc-rhdcc.gc.ca        
+        email: philip.doney@hrsdc-rhdcc.gc.ca   
+  - name: "Solutions web et l'accès aux clients"
+    nominatedby:
+      - name: "Lafortune, Jean-Luc [NC]"
+        email: jeanluc.lafortune@hrsdc-rhdcc.gc.ca
+    nominees:
+      - name: "Gauthier, Danny D [NC]"
+        email: danny.gauthier@hrsdc-rhdcc.gc.ca    
+      - name: "Belanger, Joel J [NC]"
+        email: joel.belanger@hrsdc-rhdcc.gc.ca   
+      - name: "Motty, David C. [NC]"
+        email: david.motty@hrsdc-rhdcc.gc.ca   
+      - name: "Lafortune, Jean-Luc [NC]"
+        email: jeanluc.lafortune@hrsdc-rhdcc.gc.ca          
